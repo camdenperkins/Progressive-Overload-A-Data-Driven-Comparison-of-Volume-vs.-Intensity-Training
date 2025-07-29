@@ -14,11 +14,11 @@ High intensity: April 11-May 6
 I used excel to track my progress, an example of a given workout below: <br>
 <img width="354" height="175" alt="image" src="https://github.com/user-attachments/assets/38104745-cb08-46f7-9fed-a682ead053da" />
 
-Key:
--Date: Date of workout
--Split: Type of workout that dictated what muscles were exercised, such as push/pull/legs
--Exercise: Activity performed, such as chest press, bicep curl, etc.
--Rep: How many repetitions I completed each exercise for
+Key: <br>
+-Date: Date of workout <br>
+-Split: Type of workout that dictated what muscles were exercised, such as push/pull/legs <br>
+-Exercise: Activity performed, such as chest press, bicep curl, etc. <br>
+-Rep: How many repetitions I completed each exercise for <br>
 
 
 
