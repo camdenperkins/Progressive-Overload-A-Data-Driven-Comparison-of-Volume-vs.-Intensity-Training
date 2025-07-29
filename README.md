@@ -11,7 +11,7 @@ I utilized the "Push Pull Legs" training split, which means chest/triceps/front 
 High volume: February 3-February 27
 High intensity: April 11-May 6
 
-I used excel to track my progress, an example of a given workout below:
+I used excel to track my progress, an example of a given workout below: <br>
 <img width="354" height="175" alt="image" src="https://github.com/user-attachments/assets/38104745-cb08-46f7-9fed-a682ead053da" />
 
 Key:
