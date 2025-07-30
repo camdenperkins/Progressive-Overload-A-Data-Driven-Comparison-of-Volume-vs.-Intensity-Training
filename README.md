@@ -9,7 +9,7 @@ I utilized the "Push Pull Legs" training split, which means chest/triceps/front 
 # Purpose
 Research Question: "Does high-intensity resistance training result in a statistically significant higher frequency of progressive overload compared to high-volume?"
 
-I will use Logistic Regression during this process.
+To answer this question, I will use Logistic Regression. This statistical model is the ideal choice because the outcome I want to predict—whether a workout resulted in a personal record (Prog_Overload = 1) or not (Prog_Overload = 0)—is a binary, yes/no event. Logistic Regression will allow me to determine if the training style (Intensity) has a significant effect on the probability of this outcome occurring.
 
 # Definitions
 Progressive Overload is involves gradually increasing the weight, frequency, or intensity of your workouts over time to challenge your body and promote strength gains
@@ -49,7 +49,7 @@ The table above displays the most represented so let's go with these.
 # Applying Function
 I filtered for the specific exercises we declared above in the "gym_statistics" and then applied the function we created to each of the three. Here is example data from Carter Extension: <br>
 <img width="278" height="220" alt="image" src="https://github.com/user-attachments/assets/57c675eb-fb51-433b-9e7e-16cb5f3dad55" /> <br>
-Looking at this table, we see that the workouts completed in December were correctly labeled as non-intensive and thus volume focused. The opposite applies for the bottom five rows in the image. Along with this, the second set of "Carter Extension" on December 5th was labeled as progressive overload. This is correct because the exercise was completed with the heaviest (maximum) weight recorded thereby determining the function works correctly.
+Looking at this table, we see that the workouts completed in December were correctly labeled as non-intensive and thus volume focused. The opposite applies for the bottom five rows in the image. Along with this, the second set of "Carter Extension" on December 5th was labeled as progressive overload. This is correct because the exercise was completed with a new heaviest (maximum) weight for that lift, confirming the function correctly identifies this as a progressive overload event.
 
 # Training the Dataset 
 I created a new list that only include our target exercises: Carter Extension, Lat Pulldown, and Chest Press. Using this...
@@ -76,7 +76,7 @@ This is the 95% confidence range for my coefficient. There is 95% confidence tha
 
 # Visualization
 <img width="648" height="368" alt="image" src="https://github.com/user-attachments/assets/71c40d1c-b536-4444-a075-7520b7288b19" /> <br>
-This graph compares the total number of personal records achieved by date. The blue line increased at 7.6 percent. In other words, every time I completed a workout with a focus on volume training, I had a 7.6 percent chance to obtain a personal best. On the other hand, the red line intensity-focused training grew at 25.8 percent demonstrating the key difference in productivity between the two kinds of workout plans.
+This graph compares the cumulative number of personal records achieved over time. The text highlights the Personal Record Success Rate for each training style, calculated from the focus data. During volume-focused training, 7.6% of all sets resulted in a personal record. In contrast, during intensity-focused training, that success rate jumped to 25.8%. The steeper slope of the red line visually confirms that PRs were achieved at a much faster rate during the intensity block.
 
 # Conclusion
 Through my findings with Logistic Regression, I can confidently say that intensity-focused training is significantly more effective at producing progressive overload than volume-focused training. The results are not ambiguous and are highly statistically significant, meaning it is extremely unlikely this finding is due to random chance. <br>
