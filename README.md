@@ -102,7 +102,7 @@ This is the 95% confidence range for my coefficient. There is 95% confidence tha
 
 This graph tracks the cumulative number of personal records (PRs) achieved throughout the study period. The blue line represents the volume-focused training block, while the red line represents the intensity-focused block. The steeper slope of the red line provides a clear confirmation that PRs were achieved at a significantly faster rate during the intensity training period. By the end of their respective phases, the volume block had yielded 12 PRs, whereas the shorter intensity block produced 23 PRs.
 
-<img width="1045" height="655" alt="image" src="https://github.com/user-attachments/assets/f71d5e9a-810e-4d0d-87f3-24683c1dc949" />
+<img width="494" height="312" alt="image" src="https://github.com/user-attachments/assets/8e61dc61-1a57-486a-84c0-96065f8bda80" />
 This second graph visualizes the core finding from the logistic regression model. The y-axis shows the model's predicted probability that any given set will result in a personal record. The upward-sloping red line indicates a strong positive relationship: switching from a volume style to an intensity style significantly boosts the likelihood of achieving a PR. This confirms the calculated success rates, where only 7.6% of sets resulted in a PR during volume training, compared to a 25.8% success rate during intensity training. The scattered grey dots represent the actual outcomes (0% for no PR, 100% for a PR), showing how the model fits the real-world data.
 
 # Conclusion
