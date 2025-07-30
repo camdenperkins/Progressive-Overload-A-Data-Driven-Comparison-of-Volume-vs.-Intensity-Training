@@ -36,7 +36,8 @@ Following this, I cleaned "gym_stats" by removing the empty separator rows and N
 
 # Determining Progressive Overload
 I created a function to check every workout against the best performance recorded so far for that specific exercise. This identifes and declares any new personal records and thus achieving progressive overload. <br>
-<img width="535" height="310" alt="image" src="https://github.com/user-attachments/assets/e15c4f42-9569-49b3-9faa-75c7252c1f52" /> <p align="right">This text should be aligned to the right.</p>
+<img width="535" height="310" alt="image" src="https://github.com/user-attachments/assets/e15c4f42-9569-49b3-9faa-75c7252c1f52" /> <img width="535" height="310" alt="image" src="https://github.com/user-attachments/assets/983fc191-eaee-43be-a0e9-0abb131488ca" />
+
 
 
 
