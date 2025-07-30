@@ -10,7 +10,7 @@ I utilized the "Push Pull Legs" training split, which means chest/triceps/front 
 Research Question: "Does high-intensity resistance training result in a statistically significant higher frequency of progressive overload compared to high-volume?"
 
 # Functionality
-I used excel to track my progress, an example of a given workout below: <br>
+I used excel to track my progress, an example of a given workout is below: <br>
 <img width="354" height="175" alt="image" src="https://github.com/user-attachments/assets/38104745-cb08-46f7-9fed-a682ead053da" />
 
 Key: <br>
@@ -18,6 +18,11 @@ Key: <br>
 -Split: Type of workout that dictated what muscles were exercised, such as push/pull/legs <br>
 -Exercise: Activity performed, such as chest press, bicep curl, etc. <br>
 -Rep: How many repetitions I completed each exercise for <br>
+
+# Date Preparation and Manipulation
+I began by cleaning my data by removing the empty separator rows and NaN values.
+
+gym_stats
 
 
 
