@@ -19,10 +19,20 @@ Key: <br>
 -Exercise: Activity performed, such as chest press, bicep curl, etc. <br>
 -Rep: How many repetitions I completed each exercise for <br>
 
-# Date Preparation and Manipulation
-I began by cleaning my data by removing the empty separator rows and NaN values.
+I then used python.
 
-gym_stats
+# Selecting Exercises To Study
+I want to focus on the exercises I performed the most to ensure the most statistically accurate data. <br>
+<img width="238" height="134" alt="image" src="https://github.com/user-attachments/assets/ab6493a6-4162-4a8b-9581-4ed9e52cb662" />
+The table above displays the most represented so let's go with these.
+
+# Date Preparation and Manipulation
+I began by loading and merging all my excel files together in one variable called "gym_stats".
+
+Following this, I cleaned "gym_stats" by removing the empty separator rows and NaN values. I then added a new column called "Intensity" which assigned an integer "0" to the volume-focused months and a "1" to the intenisty-focused months. 
+
+
+
 
 
 
