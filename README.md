@@ -58,8 +58,8 @@ Looking at this table, we see that the workouts completed in December were corre
 # Training the Dataset 
 I created a new list that only include our target exercises: Carter Extension, Lat Pulldown, and Chest Press. Using this...
 
-I established the independent variable as the intensity column as it is the factor I am testing. <br>
-The dependent variable is the Progressive Overload column as it is the factor I want to predict. <br>
+I established the independent variable (X) as the intensity column as it is the factor I am testing. <br>
+The dependent variable (y) is the Progressive Overload column as it is the factor I want to predict. <br>
 
 Lastly, I created a constant which is required by the library and trained/fit the data.
 
