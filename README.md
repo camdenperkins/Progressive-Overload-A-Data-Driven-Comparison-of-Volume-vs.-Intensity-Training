@@ -6,7 +6,7 @@ I began consistently weight training during the fall semester of my Junior year 
 
 I utilized the "Push Pull Legs" training split, which means chest/triceps/front and side delts, followed by back/biceps/rear-delts, and then ending with legs. I then completed this routine again, thus exercising muscle groups twice per week. Both types of training were performed until failure.
 
-I maintained a body weight of 225 pounds, fluctuating of plus or minus five pounds. To support my training, I aimed to consume 180-225 grams of protein daily.
+I maintained a body weight of 225 pounds, fluctuating plus or minus five pounds. To support my training, I aimed to consume 180-225 grams of protein daily.
 
 # Purpose
 Research Question: "Does high-intensity resistance training result in a statistically significant higher frequency of progressive overload compared to high-volume?"
@@ -21,7 +21,7 @@ To answer this question, I will use Logistic Regression. This statistical model 
 # Functionality
 This analysis covers my workout data recorded during my senior year, beginning on August 20th, 2024. It is important to note that this dataset does not include my junior year, which was primarily dedicated to learning correct form and establishing a foundational strength base. Therefore, the progress analyzed here reflects my development as an intermediate lifter, rather than a novice. <br>
 
-Furthermore, a shoulder injury from September 23rd, 2024, to approximately November 11th, 2024, prevented me from training to failure. This context is crucial as it results in a comparison of five to six months of volume-focused training to only three months of high-intensity training.
+Furthermore, a shoulder injury from September 23, 2024, to approximately November 11, 2024, prevented me from training to failure. This context is crucial as it results in a comparison of five to six months of volume-focused training to only three months of high-intensity training.
 
 I used excel to track my progress, an example of a given workout is below: <br>
 <img width="354" height="175" alt="image" src="https://github.com/user-attachments/assets/38104745-cb08-46f7-9fed-a682ead053da" />
@@ -50,7 +50,7 @@ I created a function to check every workout against the best performance recorde
 
 1. Ensures the 'Weight' and 'Rep' columns contain only numerical data, if not they are removed.
 2. Creates new column named 'Prog_Overload' and sets all values to 0. This establishes a baseline, assuming no personal record has been achieved until the function proves otherwise. 
-3. Function loops through each unique exercise (e.g., 'Chest Press', 'Lat Pulldown'). For each one, it creates a temporary history of only that exercise's sets. Also resets the 'max_weight' and 'reps_at_max_weight' trackers to zero, ensuring that the records do not interfere with another.
+3. Function loops through each unique exercise (e.g., 'Chest Press', 'Lat Pulldown'). For each one it creates a temporary history of only that exercise's sets. Also resets the 'max_weight' and 'reps_at_max_weight' trackers to zero, ensuring that the records do not interfere with another.
 4. Function chronologically checks if the current_weight is heavier than the max_weight recorded so far for that exercise. If so, function marks this set as a personal record by changing its Prog_Overload value to 1 and updates the max_weight to this new record.
 5. If the current_weight is not a new record, function checks if it matches the existing max_weight but was performed for more repetitions. If this condition is met, it also flags the set as a progressive overload event and updates the rep record at that weight.
 
@@ -62,12 +62,12 @@ I want to focus on the exercises I performed the most to ensure the most statist
 The table above displays the most represented so let's go with these.
 
 # Applying Function
-I filtered for the specific exercises we declared above in the "gym_stats" and then applied the function we created to each of the three. Here is example data from Carter Extension: <br>
+I filtered for the specific exercises declared above in the "gym_stats" and then applied the function I created to each of the three. Here is example data from Carter Extension: <br>
 <img width="278" height="220" alt="image" src="https://github.com/user-attachments/assets/57c675eb-fb51-433b-9e7e-16cb5f3dad55" /> <br>
-Looking at this table, we see that the workouts completed in December were correctly labeled as non-intensive and thus volume focused. The opposite applies for the bottom five rows in the image. Along with this, the second set of "Carter Extension" on December 5th was labeled as progressive overload. This is correct because the exercise was completed with a new heaviest (maximum) weight for that lift, confirming the function correctly identifies this as a progressive overload event.
+As shown in the table, the workouts completed in December were correctly labeled as non-intensive and thus volume focused. The opposite applies for the bottom five rows in the image. Along with this, the second set of "Carter Extension" on December 5th was labeled as progressive overload. This is correct because the exercise was completed with a new heaviest (maximum) weight for that lift, confirming the function correctly identifies this as a progressive overload event.
 
 # Training the Dataset 
-I created a new DataFrame that only includes our target exercises: Carter Extension, Lat Pulldown, and Chest Press. Using this...
+I created a new DataFrame that only includes our target exercises: Carter Extension, Lat Pulldown, and Chest Press. From this new DataFrame,
 
 I established the independent variable (X) as the intensity column as it is the factor I am testing. <br>
 The dependent variable (y) is the Progressive Overload column as it is the factor I want to predict. <br>
