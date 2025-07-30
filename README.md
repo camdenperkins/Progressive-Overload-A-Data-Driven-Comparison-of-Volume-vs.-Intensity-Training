@@ -18,6 +18,7 @@ To answer this question, I will use Logistic Regression. This statistical model 
 
 # Functionality
 I began recording my workouts at the start of my Senior year, on August 20th, 2024. Therefore, this project was completed without data from my first year of weight training. This time was spent primarily learning the correct form and building a foundational base of strength, meaning the data analyzed here reflects progress made as an intermediate, not a novice, lifter. <br>
+
 I used excel to track my progress, an example of a given workout is below: <br>
 <img width="354" height="175" alt="image" src="https://github.com/user-attachments/assets/38104745-cb08-46f7-9fed-a682ead053da" />
 
@@ -27,7 +28,7 @@ Key: <br>
 -Exercise: Activity performed, such as chest press, bicep curl, etc. <br>
 -Rep: How many repetitions I completed each exercise for <br>
 
-I then used python.
+I then used python to programmatically clean, transform, and analyze this workout data to answer my research question.
 
 # Date Preparation and Manipulation
 I began by loading and merging all my excel files together in one variable called "gym_stats".
