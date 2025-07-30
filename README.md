@@ -42,7 +42,7 @@ I created a function to check every workout against the best performance recorde
 1. Ensuring the 'Weight' and 'Rep' columns are usable numbers 
 2. Initializes a 'Prog_Overload' column with zeros 
 3. Loop prioritizes weight over repetitions and begins by establishing a maximum for each
-4. Goes through exercises and checks if there is a new maximum weight.
+4. Goes through exercises and checks if there is a new maximum weight. If so, replace the past maxium with the new one. 
 5. If not, checks if there is a new maximum repetitions
 
 # Selecting Exercises To Study
