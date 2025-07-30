@@ -13,6 +13,7 @@ To answer this question, I will use Logistic Regression. This statistical model 
 
 # Definitions
 <ins>Progressive Overload</ins> is involves gradually increasing the weight, frequency, or intensity of your workouts over time to challenge your body and promote strength gains. <br>
+
 <ins>Logistic Regression</ins> is a statistical method used to model the probability of a binary outcome (an event with two possible results, like yes/no or pass/fail) based on one or more predictor variables.
 
 # Functionality
