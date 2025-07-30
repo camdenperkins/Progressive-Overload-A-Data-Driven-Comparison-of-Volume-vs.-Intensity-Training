@@ -12,7 +12,7 @@ Research Question: "Does high-intensity resistance training result in a statisti
 To answer this question, I will use Logistic Regression. This statistical model is the ideal choice because the outcome I want to predict—whether a workout resulted in a personal record (Prog_Overload = 1) or not (Prog_Overload = 0)—is a binary, yes/no event. Logistic Regression will allow me to determine if the training style (Intensity) has a significant effect on the probability of this outcome occurring.
 
 # Definitions
-Progressive Overload is involves gradually increasing the weight, frequency, or intensity of your workouts over time to challenge your body and promote strength gains
+<ins>Progressive Overload</ins> is involves gradually increasing the weight, frequency, or intensity of your workouts over time to challenge your body and promote strength gains
 
 # Functionality
 I began recording my workouts at the start of my Senior year, on August 20th, 2024. Therefore, this project was completed without data from my first year of weight training. This time was spent primarily learning the correct form and building a foundational base of strength, meaning the data analyzed here reflects progress made as an intermediate, not a novice, lifter. I used excel to track my progress, an example of a given workout is below: <br>
