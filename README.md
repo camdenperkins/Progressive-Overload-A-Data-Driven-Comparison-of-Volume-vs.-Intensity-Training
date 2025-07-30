@@ -97,9 +97,13 @@ P-value measures the probability that you would see a result this strong purely 
 
 This is the 95% confidence range for my coefficient. There is 95% confidence that the "true" effect of the intensity training lies somewhere between +0.681 and +2.194. This further confirms that the positive effect is statistically significant.
 
-# Visualization
-<img width="662" height="205" alt="image" src="https://github.com/user-attachments/assets/6b96c926-4089-47f7-a4ee-f7508a0fe0aa" />
-This graph compares the cumulative number of personal records achieved over time. The text highlights the Personal Record Success Rate for each training style, calculated from the filtered dataset of the three focus exercises. During volume-focused training, 7.6% of all sets resulted in a personal record. In contrast, during intensity-focused training, that success rate jumped to 25.8%. The steeper slope of the red line visually confirms that PRs were achieved at a much faster rate during the intensity block.
+# Visualizations
+<img width="1062" height="601" alt="image" src="https://github.com/user-attachments/assets/6fb4bd6e-8d50-4ee8-8718-abbf89353f86" />
+
+This graph tracks the cumulative number of personal records (PRs) achieved throughout the study period. The blue line represents the volume-focused training block, while the red line represents the intensity-focused block. The steeper slope of the red line provides a clear confirmation that PRs were achieved at a significantly faster rate during the intensity training period. By the end of their respective phases, the volume block had yielded 12 PRs, whereas the shorter intensity block produced 23 PRs.
+
+<img width="1045" height="655" alt="image" src="https://github.com/user-attachments/assets/f71d5e9a-810e-4d0d-87f3-24683c1dc949" />
+This second graph visualizes the core finding from the logistic regression model. The y-axis shows the model's predicted probability that any given set will result in a personal record. The upward-sloping red line indicates a strong positive relationship: switching from a volume style to an intensity style significantly boosts the likelihood of achieving a PR. This confirms the calculated success rates, where only 7.6% of sets resulted in a PR during volume training, compared to a 25.8% success rate during intensity training. The scattered grey dots represent the actual outcomes (0% for no PR, 100% for a PR), showing how the model fits the real-world data.
 
 # Conclusion
 Through my findings with Logistic Regression, I can confidently say that intensity-focused training is significantly more effective at producing progressive overload than volume-focused training. The results are not ambiguous and are highly statistically significant, meaning it is extremely unlikely this finding is due to random chance. <br>
