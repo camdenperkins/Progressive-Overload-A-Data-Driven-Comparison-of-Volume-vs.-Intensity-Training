@@ -1,3 +1,4 @@
+# Progressive Overload: A Data Driven Comparison of Volume vs Intensity Training
 This independent project was completed by Camden Perkins, contact information: camden@fperkins.com / 203-290-7611
 
 # Background
