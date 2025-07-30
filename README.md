@@ -60,14 +60,14 @@ The dependent variable is the Progressive Overload column as it is the factor I 
 Lastly, I created a constant which is required by the library and trained/fit the data.
 
 # Results
-Total Personal Records Achieved: <br>
+<ins>Total Personal Records Achieved:</ins> <br>
 
 Intensity-Focused Block: 23 PRs <br>
 Volume-Focused Block: 12 PRs
 
 This simple count reveals that the intensity-focused protocol produced nearly double the number of progressive overload events in a significantly shorter time frame.
 
-Key Statistical Findings: <br>
+<ins>Key Statistical Findings: </ins><br>
 The logistic regression model was used to determine if this difference was statistically significant. The key results are as follows:
 
 1. coef (Coefficient): 1.4377 <br>
