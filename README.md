@@ -51,7 +51,7 @@ I want to focus on the exercises I performed the most to ensure the most statist
 The table above displays the most represented so let's go with these.
 
 # Applying Function
-I filtered for the specific exercises we declared above in the "gym_statistics" and then applied the function we created to each of the three. Here is example data from Carter Extension: <br>
+I filtered for the specific exercises we declared above in the "gym_stats" and then applied the function we created to each of the three. Here is example data from Carter Extension: <br>
 <img width="278" height="220" alt="image" src="https://github.com/user-attachments/assets/57c675eb-fb51-433b-9e7e-16cb5f3dad55" /> <br>
 Looking at this table, we see that the workouts completed in December were correctly labeled as non-intensive and thus volume focused. The opposite applies for the bottom five rows in the image. Along with this, the second set of "Carter Extension" on December 5th was labeled as progressive overload. This is correct because the exercise was completed with a new heaviest (maximum) weight for that lift, confirming the function correctly identifies this as a progressive overload event.
 
