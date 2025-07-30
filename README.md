@@ -98,7 +98,7 @@ P-value measures the probability that you would see a result this strong purely 
 This is the 95% confidence range for my coefficient. There is 95% confidence that the "true" effect of the intensity training lies somewhere between +0.681 and +2.194. This further confirms that the positive effect is statistically significant.
 
 # Visualizations
-<img width="470" height="260" alt="image" src="https://github.com/user-attachments/assets/3df41156-aa64-49df-bd02-4b0b3790d842" />
+<img width="494" height="281" alt="image" src="https://github.com/user-attachments/assets/742921f0-fb39-4b00-993e-290d959826e4" />
 
 This graph tracks the cumulative number of personal records (PRs) achieved throughout the study period. The blue line represents the volume-focused training block, while the red line represents the intensity-focused block. The steeper slope of the red line provides a clear confirmation that PRs were achieved at a significantly faster rate during the intensity training period. By the end of their respective phases, the volume block had yielded 12 PRs, whereas the shorter intensity block produced 23 PRs.
 
