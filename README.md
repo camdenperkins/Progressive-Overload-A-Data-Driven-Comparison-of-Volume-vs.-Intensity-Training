@@ -95,6 +95,9 @@ This graph compares the cumulative number of personal records achieved over time
 # Conclusion
 Through my findings with Logistic Regression, I can confidently say that intensity-focused training is significantly more effective at producing progressive overload than volume-focused training. The results are not ambiguous and are highly statistically significant, meaning it is extremely unlikely this finding is due to random chance. <br>
 
+These conclusions are further strengthened when considering the time difference between the two training protocols. The intensity-focused block produced nearly double the number of personal records (23 PRs) in only three months, compared to the 12 PRs achieved during the longer five-to-six month volume-focused block. This highlights that not only was the intensity protocol more effective, but it was also substantially more efficient at driving progress in a shorter timeframe.
+
+# Personal Note
 I thoroughly enjoyed completing this personal project and I am pleased to see such strong findings after just under two years of consistent training. If you made it this far, thank you for taking the time to read my work. 
 
 
