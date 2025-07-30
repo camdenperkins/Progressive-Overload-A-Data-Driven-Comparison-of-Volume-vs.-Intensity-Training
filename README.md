@@ -9,6 +9,8 @@ I utilized the "Push Pull Legs" training split, which means chest/triceps/front 
 # Purpose
 Research Question: "Does high-intensity resistance training result in a statistically significant higher frequency of progressive overload compared to high-volume?"
 
+I will use Logistic Regression during this process.
+
 # Definitions
 Progressive Overload is involves gradually increasing the weight, frequency, or intensity of your workouts over time to challenge your body and promote strength gains
 
@@ -50,6 +52,34 @@ I filtered for the specific exercises we declared above in the "gym_statistics" 
 Looking at this table, we see that the workouts completed in December were correctly labeled as non-intensive and thus volume focused. The opposite applies for the bottom five rows in the image. Along with this, the second set of "Carter Extension" on December 5th was labeled as progressive overload. This is correct because the exercise was completed with the heavist (maximum) weight recorded thereby determining the function works correctly.
 
 # Training the Dataset 
+I created a new list that only include our target exercises: Carter Extension, Lat Pulldown, and Chest Press. Using this...
+
+I established the independent variable as the intensity column as it is the factor I am testing. <br>
+The dependent variable is the Progressive Overload column as it is the factor I want to predict. <br>
+
+Lastly, I created a constant which is required by the library and trained/fit the data.
+
+# Results
+Key Numbers:
+
+1. coef (Coefficient): 1.4377 <br>
+
+The coefficient shows the direction and strength of the relationship. Because this number is positive, it means that when the Intensity variable changes from 0 (Volume) to 1 (Intensity), the likelihood of achieving progressive overload (Prog_Overload = 1) goes up. A coefficient of +1.44 indicates a strong positive relationship.
+
+3. P>|z| (p-value): 0.000 <br>
+
+P-value measures the probability that you would see a result this strong purely by random chance. The standard threshold for significance is 0.05. My p-value of 0.000 is far below this threshold. This gives strong evidence to reject the idea that both training styles are equal I can be very confident that the positive effect of intensity training is real.
+
+3. [0.025 and 0.975] (Confidence Interval): 0.681 to 2.194
+
+This is the 95% confidence range for my coefficient. There is 95% confidence that the "true" effect of the intensity training lies somewhere between +0.681 and +2.194. This further confirms that the positive effect is statistically significant.
+
+# Vizualizations
+<img width="648" height="368" alt="image" src="https://github.com/user-attachments/assets/71c40d1c-b536-4444-a075-7520b7288b19" /> <br>
+This graph compares the total number of personal records achieved by date. The blue line increased at 7.6 percent. In other words, every time I completed a workout with a focus on volume training, I had a 7.6 percent chance to obtain a personal best. On the other hand, the red line intensity-focused training grew at 25.8 percent demonstrating the key difference in productivity between the two kinds of workout plans.
+
+
+
 
 
 
