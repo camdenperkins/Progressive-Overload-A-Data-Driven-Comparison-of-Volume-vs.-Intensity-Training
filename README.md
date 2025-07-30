@@ -9,6 +9,9 @@ I utilized the "Push Pull Legs" training split, which means chest/triceps/front 
 # Purpose
 Research Question: "Does high-intensity resistance training result in a statistically significant higher frequency of progressive overload compared to high-volume?"
 
+# Definitions
+Progressive Overload is involves gradually increasing the weight, frequency, or intensity of your workouts over time to challenge your body and promote strength gains
+
 # Functionality
 I used excel to track my progress, an example of a given workout is below: <br>
 <img width="354" height="175" alt="image" src="https://github.com/user-attachments/assets/38104745-cb08-46f7-9fed-a682ead053da" />
@@ -31,7 +34,9 @@ I began by loading and merging all my excel files together in one variable calle
 
 Following this, I cleaned "gym_stats" by removing the empty separator rows and NaN values. I then added a new column called "Intensity" which assigned an integer "0" to the volume-focused months and a "1" to the intenisty-focused months. 
 
-
+# Determining Progressive Overload
+I created a function to check every workout against the best performance recorded so far for that specific exercise. This identifes and declares any new personal records and thus achieving progressive overload. <br>
+<img width="535" height="310" alt="image" src="https://github.com/user-attachments/assets/e15c4f42-9569-49b3-9faa-75c7252c1f52" />
 
 
 
