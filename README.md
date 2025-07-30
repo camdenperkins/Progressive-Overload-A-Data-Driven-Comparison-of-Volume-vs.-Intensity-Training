@@ -23,7 +23,7 @@ I then used python.
 
 # Selecting Exercises To Study
 I want to focus on the exercises I performed the most to ensure the most statistically accurate data. <br>
-<img width="238" height="134" alt="image" src="https://github.com/user-attachments/assets/ab6493a6-4162-4a8b-9581-4ed9e52cb662" />
+<img width="238" height="134" alt="image" src="https://github.com/user-attachments/assets/ab6493a6-4162-4a8b-9581-4ed9e52cb662" /> <br>
 The table above displays the most represented so let's go with these.
 
 # Date Preparation and Manipulation
