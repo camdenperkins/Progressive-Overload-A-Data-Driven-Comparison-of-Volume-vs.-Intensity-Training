@@ -98,7 +98,7 @@ P-value measures the probability that you would see a result this strong purely 
 This is the 95% confidence range for my coefficient. There is 95% confidence that the "true" effect of the intensity training lies somewhere between +0.681 and +2.194. This further confirms that the positive effect is statistically significant.
 
 # Visualization
-<img width="653" height="372" alt="image" src="https://github.com/user-attachments/assets/72743962-30ac-4d42-bdd4-cdc67cc48b29" /> <br>
+<img width="662" height="205" alt="image" src="https://github.com/user-attachments/assets/6b96c926-4089-47f7-a4ee-f7508a0fe0aa" />
 This graph compares the cumulative number of personal records achieved over time. The text highlights the Personal Record Success Rate for each training style, calculated from the filtered dataset of the three focus exercises. During volume-focused training, 7.6% of all sets resulted in a personal record. In contrast, during intensity-focused training, that success rate jumped to 25.8%. The steeper slope of the red line visually confirms that PRs were achieved at a much faster rate during the intensity block.
 
 # Conclusion
