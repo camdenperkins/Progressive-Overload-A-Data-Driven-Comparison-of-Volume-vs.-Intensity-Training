@@ -39,7 +39,7 @@ I began by loading and merging all my excel files together in one DataFrame and 
 
 Following this, I cleaned "gym_stats" by removing the empty separator rows and NaN values. I then added a new column called "Intensity" which assigned an integer "0" to the volume-focused months (August 20, 2024 - April 10, 2025) and a "1" to the intensity-focused months (April 11, 2025 - Present). This provided a clear method for categorizing each workout by its training style which will be useful later on.
 
-<img width="377" height="119" alt="image" src="https://github.com/user-attachments/assets/3d7b1c1b-fb06-42e8-bb51-7de985ea8c78" />
+<img width="664" height="212" alt="image" src="https://github.com/user-attachments/assets/af4f8005-2d05-499f-afae-c299f2c7d04c" />
 
 
 # Determining Progressive Overload
