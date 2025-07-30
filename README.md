@@ -35,9 +35,9 @@ Key: <br>
 I then used python to programmatically clean, transform, and analyze this workout data to answer my research question.
 
 # Date Preparation and Manipulation
-I began by loading and merging all my excel files together in one DataFrame and called it "gym_stats". This DataFrame includes my workouts from Fall 2024, Winter 2024, Spring 2025 (volume), Spring 2025 (Intensity), and Summer 2025.
+I began by loading and merging all my excel files together in one DataFrame and called it "gym_stats". This DataFrame includes my workouts from Fall 2024, Winter 2024, Spring 2025 (volume), Spring 2025 (Intensity), and Summer 2025. Following this, I cleaned "gym_stats" by removing the empty separator rows and NaN values. See below, image on the left.
 
-Following this, I cleaned "gym_stats" by removing the empty separator rows and NaN values. I then added a new column called "Intensity" which assigned an integer "0" to the volume-focused months (August 20, 2024 - April 10, 2025) and a "1" to the intensity-focused months (April 11, 2025 - Present). This provided a clear method for categorizing each workout by its training style which will be useful later on.
+I then added a new column called "Intensity" which assigned an integer "0" to the volume-focused months (August 20, 2024 - April 10, 2025) and a "1" to the intensity-focused months (April 11, 2025 - Present). This provided a clear method for categorizing each workout by its training style which will be useful later on. See below, image on the right.
 
 <img width="664" height="212" alt="image" src="https://github.com/user-attachments/assets/af4f8005-2d05-499f-afae-c299f2c7d04c" />
 
