@@ -18,6 +18,7 @@ To answer this question, I will use Logistic Regression. This statistical model 
 
 # Functionality
 This analysis covers my workout data recorded during my senior year, beginning on August 20th, 2024. It is important to note that this dataset does not include my junior year, which was primarily dedicated to learning correct form and establishing a foundational strength base. Therefore, the progress analyzed here reflects my development as an intermediate lifter, rather than a novice. <br>
+
 Furthermore, a shoulder injury from September 23rd, 2024, to approximately November 11th, 2024, prevented me from training to failure. This context is crucial as it results in a comparison of five to six months of volume-focused training to only three months of high-intensity training.
 
 I used excel to track my progress, an example of a given workout is below: <br>
