@@ -6,6 +6,8 @@ I began consistently weight training during the fall semester of my Junior year 
 
 I utilized the "Push Pull Legs" training split, which means chest/triceps/front and side delts, followed by back/biceps/rear-delts, and then ending with legs. I then completed this routine again, thus exercising muscle groups twice per week. Both types of training were performed until failure.
 
+I maintained a body weight of 225 pounds, fluctuating of plus or minus five pounds. To support my training, I aimed to consume 180-225 grams of protein daily.
+
 # Purpose
 Research Question: "Does high-intensity resistance training result in a statistically significant higher frequency of progressive overload compared to high-volume?"
 
