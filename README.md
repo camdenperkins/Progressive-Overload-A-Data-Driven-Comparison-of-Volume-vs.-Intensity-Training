@@ -31,9 +31,9 @@ Key: <br>
 I then used python to programmatically clean, transform, and analyze this workout data to answer my research question.
 
 # Date Preparation and Manipulation
-I began by loading and merging all my excel files together in one variable called "gym_stats".
+I began by loading and merging all my excel files together in one dataframe and called it "gym_stats".
 
-Following this, I cleaned "gym_stats" by removing the empty separator rows and NaN values. I then added a new column called "Intensity" which assigned an integer "0" to the volume-focused months and a "1" to the intensity-focused months. 
+Following this, I cleaned "gym_stats" by removing the empty separator rows and NaN values. I then added a new column called "Intensity" which assigned an integer "0" to the volume-focused months (August 2024-April 10) and a "1" to the intensity-focused months (April 11-Present Day). 
 
 # Determining Progressive Overload
 I created a function to check every workout against the best performance recorded so far for that specific exercise. This identifies and declares any new personal records and thus achieving progressive overload. This is the backbone of my study. <br>
