@@ -43,11 +43,13 @@ Following this, I cleaned "gym_stats" by removing the empty separator rows and N
 I created a function to check every workout against the best performance recorded so far for that specific exercise. This identifies and declares any new personal records and thus achieving progressive overload. This is the backbone of my study. <br>
 <img width="414" height="308" alt="image" src="https://github.com/user-attachments/assets/63205ee6-509e-411a-94bc-fb35a6b32b49" />
 
-1. Ensuring the 'Weight' and 'Rep' columns are usable numbers 
-2. Initializes a 'Prog_Overload' column with zeros 
-3. Loop prioritizes weight over repetitions and begins by establishing a maximum for each
-4. Goes through exercises and checks if there is a new maximum weight. If so, replace the past maxium with the new one. 
-5. If not, checks if there is a new maximum repetitions
+1. Ensures the 'Weight' and 'Rep' columns contain only numerical data, if not they are removed.
+2. Creates new column named 'Prog_Overload' and sets all values to 0. This establishes a baseline, assuming no personal record has been achieved until the function proves otherwise. 
+3. Function loops through each unique exercise (e.g., 'Chest Press', 'Lat Pulldown'). For each one, it creates a temporary history of only that exercise's sets. Also resets the 'max_weight' and 'reps_at_max_weight' trackers to zero, ensuring that the records do not interfere with another.
+4. Function chronologically checks if the current_weight is heavier than the max_weight recorded so far for that exercise. If so, function marks this set as a personal record by changing its Prog_Overload value to 1 and updates the max_weight to this new record.
+5. If the current_weight is not a new record, function checks if it matches the existing max_weight but was performed for more repetitions. If this condition is met, it also flags the set as a progressive overload event and updates the rep record at that weight.
+
+Function correctly prioritizes lifting heavier weight as the primary driver of overload, with increasing reps as a secondary factor.
 
 # Selecting Exercises To Study
 I want to focus on the exercises I performed the most to ensure the most statistically accurate data. <br>
