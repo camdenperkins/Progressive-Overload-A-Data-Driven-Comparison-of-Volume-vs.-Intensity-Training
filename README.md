@@ -60,7 +60,15 @@ The dependent variable is the Progressive Overload column as it is the factor I 
 Lastly, I created a constant which is required by the library and trained/fit the data.
 
 # Results
-Key Numbers:
+Total Personal Records Achieved:
+
+Intensity-Focused Block: 23 PRs
+Volume-Focused Block: 12 PRs
+
+This simple count reveals that the intensity-focused protocol produced nearly double the number of progressive overload events in a significantly shorter time frame.
+
+Key Statistical Findings:
+The logistic regression model was used to determine if this difference was statistically significant. The key results are as follows:
 
 1. coef (Coefficient): 1.4377 <br>
 
@@ -75,7 +83,7 @@ P-value measures the probability that you would see a result this strong purely 
 This is the 95% confidence range for my coefficient. There is 95% confidence that the "true" effect of the intensity training lies somewhere between +0.681 and +2.194. This further confirms that the positive effect is statistically significant.
 
 # Visualization
-<img width="648" height="368" alt="image" src="https://github.com/user-attachments/assets/71c40d1c-b536-4444-a075-7520b7288b19" /> <br>
+<img width="653" height="372" alt="image" src="https://github.com/user-attachments/assets/72743962-30ac-4d42-bdd4-cdc67cc48b29" /> <br>
 This graph compares the cumulative number of personal records achieved over time. The text highlights the Personal Record Success Rate for each training style, calculated from the focus data. During volume-focused training, 7.6% of all sets resulted in a personal record. In contrast, during intensity-focused training, that success rate jumped to 25.8%. The steeper slope of the red line visually confirms that PRs were achieved at a much faster rate during the intensity block.
 
 # Conclusion
