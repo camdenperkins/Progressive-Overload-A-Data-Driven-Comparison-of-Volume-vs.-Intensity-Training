@@ -36,9 +36,13 @@ Following this, I cleaned "gym_stats" by removing the empty separator rows and N
 
 # Determining Progressive Overload
 I created a function to check every workout against the best performance recorded so far for that specific exercise. This identifes and declares any new personal records and thus achieving progressive overload. <br>
-<img width="535" height="310" alt="image" src="https://github.com/user-attachments/assets/e15c4f42-9569-49b3-9faa-75c7252c1f52" /> 
-<img width="535" height="310" alt="image" src="https://github.com/user-attachments/assets/983fc191-eaee-43be-a0e9-0abb131488ca" />
+<img width="414" height="308" alt="image" src="https://github.com/user-attachments/assets/63205ee6-509e-411a-94bc-fb35a6b32b49" />
 
+1. Ensuring the 'Weight' and 'Rep' columns are usable numbers 
+2. Initializes a 'Prog_Overload' column with zeros 
+3. Loop prioritizes weight over repetitions and begins by establishing a maximum for each
+4. Goes through exercises and checks if there is a new maximum weight.
+5. If not, checks if there is a new maximum repetitions
 
 
 
