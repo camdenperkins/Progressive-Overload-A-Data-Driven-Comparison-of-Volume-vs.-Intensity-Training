@@ -17,7 +17,8 @@ To answer this question, I will use Logistic Regression. This statistical model 
 <ins>Logistic Regression</ins> is a statistical method used to model the probability of a binary outcome (an event with two possible results, like yes/no or pass/fail) based on one or more predictor variables.
 
 # Functionality
-I began recording my workouts at the start of my Senior year, on August 20th, 2024. Therefore, this project was completed without data from my first year of weight training. This time was spent primarily learning the correct form and building a foundational base of strength, meaning the data analyzed here reflects progress made as an intermediate, not a novice, lifter. <br>
+This analysis covers my workout data recorded during my senior year, beginning on August 20th, 2024. It is important to note that this dataset does not include my junior year, which was primarily dedicated to learning correct form and establishing a foundational strength base. Therefore, the progress analyzed here reflects my development as an intermediate lifter, rather than a novice. <br>
+Furthermore, a shoulder injury from September 23rd, 2024, to approximately November 11th, 2024, prevented me from training to failure. This context is crucial as it results in a comparison of five to six months of volume-focused training to only three months of high-intensity training.
 
 I used excel to track my progress, an example of a given workout is below: <br>
 <img width="354" height="175" alt="image" src="https://github.com/user-attachments/assets/38104745-cb08-46f7-9fed-a682ead053da" />
