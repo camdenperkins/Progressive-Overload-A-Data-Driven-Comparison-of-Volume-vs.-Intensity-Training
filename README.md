@@ -24,18 +24,13 @@ Key: <br>
 
 I then used python.
 
-# Selecting Exercises To Study
-I want to focus on the exercises I performed the most to ensure the most statistically accurate data. <br>
-<img width="238" height="134" alt="image" src="https://github.com/user-attachments/assets/ab6493a6-4162-4a8b-9581-4ed9e52cb662" /> <br>
-The table above displays the most represented so let's go with these.
-
 # Date Preparation and Manipulation
 I began by loading and merging all my excel files together in one variable called "gym_stats".
 
 Following this, I cleaned "gym_stats" by removing the empty separator rows and NaN values. I then added a new column called "Intensity" which assigned an integer "0" to the volume-focused months and a "1" to the intenisty-focused months. 
 
 # Determining Progressive Overload
-I created a function to check every workout against the best performance recorded so far for that specific exercise. This identifes and declares any new personal records and thus achieving progressive overload. <br>
+I created a function to check every workout against the best performance recorded so far for that specific exercise. This identifes and declares any new personal records and thus achieving progressive overload. This is the backbone of my study. <br>
 <img width="414" height="308" alt="image" src="https://github.com/user-attachments/assets/63205ee6-509e-411a-94bc-fb35a6b32b49" />
 
 1. Ensuring the 'Weight' and 'Rep' columns are usable numbers 
@@ -43,6 +38,14 @@ I created a function to check every workout against the best performance recorde
 3. Loop prioritizes weight over repetitions and begins by establishing a maximum for each
 4. Goes through exercises and checks if there is a new maximum weight.
 5. If not, checks if there is a new maximum repetitions
+
+# Selecting Exercises To Study
+I want to focus on the exercises I performed the most to ensure the most statistically accurate data. <br>
+<img width="238" height="134" alt="image" src="https://github.com/user-attachments/assets/ab6493a6-4162-4a8b-9581-4ed9e52cb662" /> <br>
+The table above displays the most represented so let's go with these.
+
+# Applying Function
+I filtered for the specific exercises we declared above in the "gym_statistics" and then applied the function we created to each of the three. Here is example data fom the Carter Extension table:
 
 
 
