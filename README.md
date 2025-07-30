@@ -31,9 +31,9 @@ Key: <br>
 I then used python to programmatically clean, transform, and analyze this workout data to answer my research question.
 
 # Date Preparation and Manipulation
-I began by loading and merging all my excel files together in one dataframe and called it "gym_stats".
+I began by loading and merging all my excel files together in one DataFrame and called it "gym_stats".
 
-Following this, I cleaned "gym_stats" by removing the empty separator rows and NaN values. I then added a new column called "Intensity" which assigned an integer "0" to the volume-focused months (August 2024-April 10) and a "1" to the intensity-focused months (April 11-Present Day). 
+Following this, I cleaned "gym_stats" by removing the empty separator rows and NaN values. I then added a new column called "Intensity" which assigned an integer "0" to the volume-focused months (August 20, 2024 - April 10, 2025) and a "1" to the intensity-focused months (April 11, 2025 - Present). 
 
 # Determining Progressive Overload
 I created a function to check every workout against the best performance recorded so far for that specific exercise. This identifies and declares any new personal records and thus achieving progressive overload. This is the backbone of my study. <br>
@@ -56,7 +56,7 @@ I filtered for the specific exercises we declared above in the "gym_stats" and t
 Looking at this table, we see that the workouts completed in December were correctly labeled as non-intensive and thus volume focused. The opposite applies for the bottom five rows in the image. Along with this, the second set of "Carter Extension" on December 5th was labeled as progressive overload. This is correct because the exercise was completed with a new heaviest (maximum) weight for that lift, confirming the function correctly identifies this as a progressive overload event.
 
 # Training the Dataset 
-I created a new list that only include our target exercises: Carter Extension, Lat Pulldown, and Chest Press. Using this...
+I created a new DataFrame that only includes our target exercises: Carter Extension, Lat Pulldown, and Chest Press. Using this...
 
 I established the independent variable (X) as the intensity column as it is the factor I am testing. <br>
 The dependent variable (y) is the Progressive Overload column as it is the factor I want to predict. <br>
@@ -78,7 +78,7 @@ The logistic regression model was used to determine if this difference was stati
 
 The coefficient shows the direction and strength of the relationship. Because this number is positive, it means that when the Intensity variable changes from 0 (Volume) to 1 (Intensity), the likelihood of achieving progressive overload (Prog_Overload = 1) goes up. A coefficient of +1.44 indicates a strong positive relationship.
 
-3. P>|z| (p-value): 0.000 <br>
+2. P>|z| (p-value): 0.000 <br>
 
 P-value measures the probability that you would see a result this strong purely by random chance. The standard threshold for significance is 0.05. My p-value of 0.000 is far below this threshold. This gives strong evidence to reject the idea that both training styles are equal I can be very confident that the positive effect of intensity training is real.
 
@@ -88,7 +88,7 @@ This is the 95% confidence range for my coefficient. There is 95% confidence tha
 
 # Visualization
 <img width="653" height="372" alt="image" src="https://github.com/user-attachments/assets/72743962-30ac-4d42-bdd4-cdc67cc48b29" /> <br>
-This graph compares the cumulative number of personal records achieved over time. The text highlights the Personal Record Success Rate for each training style, calculated from the focus data. During volume-focused training, 7.6% of all sets resulted in a personal record. In contrast, during intensity-focused training, that success rate jumped to 25.8%. The steeper slope of the red line visually confirms that PRs were achieved at a much faster rate during the intensity block.
+This graph compares the cumulative number of personal records achieved over time. The text highlights the Personal Record Success Rate for each training style, calculated from the filtered dataset of the three focus exercises. During volume-focused training, 7.6% of all sets resulted in a personal record. In contrast, during intensity-focused training, that success rate jumped to 25.8%. The steeper slope of the red line visually confirms that PRs were achieved at a much faster rate during the intensity block.
 
 # Conclusion
 Through my findings with Logistic Regression, I can confidently say that intensity-focused training is significantly more effective at producing progressive overload than volume-focused training. The results are not ambiguous and are highly statistically significant, meaning it is extremely unlikely this finding is due to random chance. <br>
