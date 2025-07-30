@@ -39,6 +39,9 @@ I began by loading and merging all my excel files together in one DataFrame and 
 
 Following this, I cleaned "gym_stats" by removing the empty separator rows and NaN values. I then added a new column called "Intensity" which assigned an integer "0" to the volume-focused months (August 20, 2024 - April 10, 2025) and a "1" to the intensity-focused months (April 11, 2025 - Present). This provided a clear method for categorizing each workout by its training style which will be useful later on.
 
+<img width="377" height="119" alt="image" src="https://github.com/user-attachments/assets/3d7b1c1b-fb06-42e8-bb51-7de985ea8c78" />
+
+
 # Determining Progressive Overload
 I created a function to check every workout against the best performance recorded so far for that specific exercise. This identifies and declares any new personal records and thus achieving progressive overload. This is the backbone of my study. <br>
 <img width="414" height="308" alt="image" src="https://github.com/user-attachments/assets/63205ee6-509e-411a-94bc-fb35a6b32b49" />
