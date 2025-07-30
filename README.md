@@ -9,7 +9,7 @@ I utilized the "Push Pull Legs" training split, which means chest/triceps/front 
 # Purpose
 Research Question: "Does high-intensity resistance training result in a statistically significant higher frequency of progressive overload compared to high-volume?"
 
-To answer this question, I will use Logistic Regression. This statistical model is the ideal choice because the outcome I want to predict—whether a workout resulted in a personal record (Prog_Overload = 1) or not (Prog_Overload = 0)—is a binary, yes/no event. Logistic Regression will allow me to determine if the training style (Intensity) has a significant effect on the probability of this outcome occurring.
+To answer this question, I will use Logistic Regression. This statistical model is the ideal choice because the outcome I want to predict—whether a workout resulted in a personal record—is a binary, yes/no event. Logistic Regression will allow me to determine if the training style (Intensity) has a significant effect on the probability of this outcome occurring.
 
 # Definitions
 <ins>Progressive Overload</ins> is involves gradually increasing the weight, frequency, or intensity of your workouts over time to challenge your body and promote strength gains. <br>
