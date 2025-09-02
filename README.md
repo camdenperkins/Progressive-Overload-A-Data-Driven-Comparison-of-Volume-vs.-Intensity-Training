@@ -36,7 +36,9 @@ Key: <br>
 -Exercise: Activity performed, such as chest press, bicep curl, etc. <br>
 -Rep: How many repetitions I completed each exercise for <br>
 
-# Date Preparation and Manipulation
+# Implementation and Workflow
+
+## Date Preparation and Manipulation
 I  used python to programmatically clean, transform, and analyze this workout data to answer my research question.
 
 I began by loading and merging all my Excel files into a single DataFrame called gym_stats, which includes workouts from Fall 2024, Winter 2024, Spring 2025 (volume), and Spring 2025 (intensity). I cleaned gym_stats by removing empty rows and NaN values, then concatenated everything together and reset the index. Finally, I standardized the exercise names by trimming spaces and converting them to lowercase.
@@ -48,7 +50,7 @@ I added a new column called Intensity, assigning an integer “0” to volume-fo
 
 <img width="629" height="171" alt="image" src="https://github.com/user-attachments/assets/6994b195-ebfc-4ed2-891e-1c0bed5b44a2" />
 
-# Determining Progressive Overload
+## Determining Progressive Overload
 I created a function to check every workout against the best performance recorded so far for that specific exercise. This identifies and declares any new personal records and thus achieving progressive overload. <br>
 <img width="414" height="308" alt="image" src="https://github.com/user-attachments/assets/63205ee6-509e-411a-94bc-fb35a6b32b49" />
 
@@ -60,7 +62,7 @@ I created a function to check every workout against the best performance recorde
 
 Function correctly prioritizes lifting heavier weight as the primary driver of overload, with increasing reps as a secondary factor.
 
-# Applying Function
+## Applying Function
 I want to focus on the exercises I performed the most to ensure statistically accurate data. The most common exercises in the full-year dataset include Incline DB Press and Chest Press, while the most significant in the spring semester were Close Grip Row and Rope Hammer Curl.
 
 I filtered through both the full-year and spring datasets using the selected exercises, then applied the newly created function, shown in the example below. <br>
