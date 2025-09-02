@@ -13,7 +13,7 @@ Research Question: "Does high-intensity resistance training result in a statisti
 
 To answer this question, I’ll be conducting a two-part study.
 
-**Section 1** focuses on analyzing data collected during my senior year at Elon University, spanning from August 20, 2024, to May 21, 2025. This dataset captures my training metrics and progression throughout that academic year.
+**Section 1** focuses on analyzing the training metrics and progression I tracked during my senior year at Elon University, spanning August 20, 2024, to May 21, 2025. I plan to explore patterns across both the full year and the isolated, intensity-focused training block during the spring semester.
 
 **Section 2** builds on that foundation by applying predictive modeling techniques—specifically linear and logistic regression—to forecast future progressive overload events. I’ll then compare these predictions against actual post-study data to evaluate the model’s accuracy and reliability.
 
