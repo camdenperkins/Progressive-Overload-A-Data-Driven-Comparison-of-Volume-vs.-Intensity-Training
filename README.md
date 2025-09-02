@@ -63,8 +63,8 @@ Function correctly prioritizes lifting heavier weight as the primary driver of o
 # Applying Function
 I want to focus on the exercises I performed the most to ensure statistically accurate data. The most common exercises in the full-year dataset include Incline DB Press and Chest Press, while the most significant in the spring semester were Close Grip Row and Rope Hammer Curl.
 
-I filtered for the specific exercises declared above in the "gym_stats" and then applied the function I created to each of the three. Here is example data from Carter Extension: <br>
-<img width="278" height="220" alt="image" src="https://github.com/user-attachments/assets/57c675eb-fb51-433b-9e7e-16cb5f3dad55" /> <br>
+I filtered through both the full-year and spring datasets using the selected exercises, then applied the newly created function, shown in the example below.
+<img width="373" height="282" alt="image" src="https://github.com/user-attachments/assets/c3257253-5f36-4971-8fac-21defff5fc95" /> <br>
 As shown in the table, the workouts completed in December were correctly labeled as non-intensive and thus volume focused. The opposite applies for the bottom five rows in the image. Along with this, the second set of "Carter Extension" on December 5th was labeled as progressive overload. This is correct because the exercise was completed with a new heaviest (maximum) weight for that lift, confirming the function correctly identifies this as a progressive overload event.
 
 # Training the Dataset 
