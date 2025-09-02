@@ -69,7 +69,7 @@ I filtered through both the full-year and spring datasets using the selected exe
 <img width="369" height="139" alt="image" src="https://github.com/user-attachments/assets/b672d0a7-5036-46ed-a312-40b2a9a204bb" /> <br>
 As shown in the table, the workouts completed in May were correctly labeled and categorized as intensive. The opposite applies for the February five rows in the image. Along with this, the Chest Press set on May 5th was recorded as progressive overload event. This indicates that the exercise was completed with a new heaviest (maximum) weight or rep for that lift, confirming that the function works.
 
-# Section One
+# Section One - Empirical Analysis
 
 ### Visualization #1
 <img width="799" height="463" alt="image" src="https://github.com/user-attachments/assets/2bed709f-da09-4511-896a-bf1ee75e175f" /> <br>
@@ -81,9 +81,10 @@ The bar chart compares total progressive overload between volume-based and inten
 ### Analysis
 The scatter plot reveals a clear inverse relationship between reps and weight across both exercises. Close Grip Row sets dropped from 10 repetitions at 130 lbs in February to 6–7 repetitions at 195 lbs by May—a 50% increase in weight paired with a 30–40% reduction in reps. Similarly, Rope Hammer Curl progressed from 130 lbs for 8 reps to 180 lbs for 6 reps, marking a 38% increase in load with a 25% drop in reps. These shifts highlight how lower rep ranges enabled heavier lifts, reinforcing the effectiveness of intensity-based programming in promoting progressive overload.
 
+### Section One Concluding Thoughts
+The findings above offer direct support for the research question: Does high-intensity resistance training result in a statistically significant higher frequency of progressive overload compared to high-volume? Both the bar chart and scatter plot demonstrate that intensity-based training consistently produced greater overload outcomes—whether measured by total overload scores or by heavier weights achieved at lower rep ranges.
 
-
-
+# Section Two - Predictive Modeling
 
 
 
