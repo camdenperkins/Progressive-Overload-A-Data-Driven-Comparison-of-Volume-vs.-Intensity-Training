@@ -25,7 +25,7 @@ To answer this question, I’ll be conducting a two-part study.
 # Functionality
 This analysis covers my workout data recorded during my senior year, beginning on August 20th, 2024. It is important to note that this dataset does not include my junior year, which was primarily dedicated to learning correct form and establishing a foundational strength base. Therefore, the progress analyzed here reflects my development as an intermediate lifter, rather than a novice. <br>
 
-Furthermore, a shoulder injury from September 23, 2024, to approximately November 11, 2024, prevented me from training to failure. This context is crucial as it results in a comparison of five to six months of volume-focused training to only three months of high-intensity training.
+Furthermore, a shoulder injury from September 23, 2024, to approximately November 11, 2024, prevented me from training to failure. This context is crucial as it results in a comparison of five to six months of volume-focused training to only one month of high-intensity training.
 
 I used excel to track my progress, an example of a given workout is below: <br>
 <img width="354" height="175" alt="image" src="https://github.com/user-attachments/assets/38104745-cb08-46f7-9fed-a682ead053da" />
@@ -36,9 +36,9 @@ Key: <br>
 -Exercise: Activity performed, such as chest press, bicep curl, etc. <br>
 -Rep: How many repetitions I completed each exercise for <br>
 
-I then used python to programmatically clean, transform, and analyze this workout data to answer my research question.
-
 # Date Preparation and Manipulation
+I  used python to programmatically clean, transform, and analyze this workout data to answer my research question.
+
 I began by loading and merging all my excel files together in one DataFrame and called it "gym_stats". This DataFrame includes my workouts from Fall 2024, Winter 2024, Spring 2025 (volume), Spring 2025 (Intensity), and Summer 2025. Following this, I cleaned "gym_stats" by removing the empty separator rows and NaN values. 
 
 I then added a new column called "Intensity" which assigned an integer "0" to the volume-focused months (August 20, 2024 - April 10, 2025) and a "1" to the intensity-focused months (April 11, 2025 - Present). This provided a clear method for categorizing each workout by its training style which will be useful later on. 
