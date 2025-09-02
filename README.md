@@ -41,10 +41,11 @@ I  used python to programmatically clean, transform, and analyze this workout da
 
 I began by loading and merging all my Excel files into a single DataFrame called gym_stats, which includes workouts from Fall 2024, Winter 2024, Spring 2025 (volume), and Spring 2025 (intensity). I cleaned gym_stats by removing empty rows and NaN values, then concatenated everything together and reset the index. Finally, I standardized the exercise names by trimming spaces and converting them to lowercase.
 
-<img width="676" height="211" alt="image" src="https://github.com/user-attachments/assets/8c7751c8-b3dd-46b6-906b-fc35bb661722" />
+<img width="601" height="197" alt="image" src="https://github.com/user-attachments/assets/61804401-03ce-4926-9a8c-72a5d6e41a4c" />
 
 I added a new column called Intensity, assigning an integer “0” to volume-focused months (Aug 20, 2024 – Apr 10, 2025) and “1” to intensity-focused months (Apr 1, 2025 – May 21, 2025). This provided a simple way to label each workout by training style for later analysis.
 
+<img width="629" height="171" alt="image" src="https://github.com/user-attachments/assets/6994b195-ebfc-4ed2-891e-1c0bed5b44a2" />
 
 # Determining Progressive Overload
 I created a function to check every workout against the best performance recorded so far for that specific exercise. This identifies and declares any new personal records and thus achieving progressive overload. This is the backbone of my study. <br>
