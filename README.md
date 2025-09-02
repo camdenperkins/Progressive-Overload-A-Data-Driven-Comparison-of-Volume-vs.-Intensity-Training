@@ -47,6 +47,7 @@ Image on the left is the code I described, while the image on the right is my Da
 
 <img width="664" height="212" alt="image" src="https://github.com/user-attachments/assets/af4f8005-2d05-499f-afae-c299f2c7d04c" />
 
+<img width="861" height="448" alt="image" src="https://github.com/user-attachments/assets/2e795fae-df56-4dbe-9f51-be11b7877051" />
 
 # Determining Progressive Overload
 I created a function to check every workout against the best performance recorded so far for that specific exercise. This identifies and declares any new personal records and thus achieving progressive overload. This is the backbone of my study. <br>
