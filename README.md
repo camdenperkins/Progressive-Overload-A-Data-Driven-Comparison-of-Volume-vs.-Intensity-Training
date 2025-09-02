@@ -38,7 +38,7 @@ Key: <br>
 
 # Implementation and Workflow
 
-## Date Preparation and Manipulation
+### Date Preparation and Manipulation
 I  used python to programmatically clean, transform, and analyze this workout data to answer my research question.
 
 I began by loading and merging all my Excel files into a single DataFrame called gym_stats, which includes workouts from Fall 2024, Winter 2024, Spring 2025 (volume), and Spring 2025 (intensity). I cleaned gym_stats by removing empty rows and NaN values, then concatenated everything together and reset the index. Finally, I standardized the exercise names by trimming spaces and converting them to lowercase.
