@@ -11,7 +11,11 @@ I maintained a body weight of 225 pounds, fluctuating plus or minus five pounds.
 # Purpose
 Research Question: "Does high-intensity resistance training result in a statistically significant higher frequency of progressive overload compared to high-volume?"
 
-To answer this question, I will use Logistic Regression. This statistical model is the ideal choice because the outcome I want to predict—whether a workout resulted in a personal record—is a binary, yes/no event. Logistic Regression will allow me to determine if the training style (Intensity) has a significant effect on the probability of this outcome occurring.
+To answer this question, I’ll be conducting a two-part study.
+
+**Section 1** focuses on analyzing data collected during my senior year at Elon University, spanning from August 20, 2024, to May 21, 2025. This dataset captures my training metrics and progression throughout that academic year.
+
+**Section 2** builds on that foundation by applying predictive modeling techniques—specifically linear and logistic regression—to forecast future progressive overload events. I’ll then compare these predictions against actual post-study data to evaluate the model’s accuracy and reliability.
 
 # Definitions
 <ins>Progressive Overload</ins> involves gradually increasing the weight, frequency, or intensity of your workouts over time to challenge your body and promote strength gains. <br>
