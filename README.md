@@ -61,7 +61,7 @@ I created a function to check every workout against the best performance recorde
 Function correctly prioritizes lifting heavier weight as the primary driver of overload, with increasing reps as a secondary factor.
 
 # Applying Function
-I want to focus on the exercises I performed the most to ensure the most statistically accurate data. The most common exercises recorded in the full-year dataset include Incline Db Press and Chest Press, while the most significant in the spring semester were Close Grip Row and Rope Hammer Curl.
+I want to focus on the exercises I performed most to ensure statistically accurate data. The most common exercises in the full-year dataset include Incline DB Press and Chest Press, while the most significant in the spring semester were Close Grip Row and Rope Hammer Curl.
 
 I filtered for the specific exercises declared above in the "gym_stats" and then applied the function I created to each of the three. Here is example data from Carter Extension: <br>
 <img width="278" height="220" alt="image" src="https://github.com/user-attachments/assets/57c675eb-fb51-433b-9e7e-16cb5f3dad55" /> <br>
