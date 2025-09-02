@@ -76,6 +76,10 @@ As shown in the table, the workouts completed in May were correctly labeled and 
 ### Analysis
 The bar chart compares total progressive overload between volume-based and intensity-based training across Chest Press and Incline DB Press. Intensity-based training resulted in overload scores of 8 and 6, respectively, while volume-based training reached only 3 for both exercises. Despite the five–six month time difference, intensity-based training still produced a 167% increase for Chest Press and a 100% increase for Incline DB Press.
 
+### Visualization #2
+<img width="774" height="460" alt="image" src="https://github.com/user-attachments/assets/b6717204-b95a-438c-a44d-aa40af7204b6" /> <br>
+### Analysis
+The scatter plot reveals a clear inverse relationship between reps and weight across both exercises. Close Grip Row sets dropped from 10 repetitions at 130 lbs in February to 6–7 repetitions at 195 lbs by May—a 50% increase in weight paired with a 30–40% reduction in reps. Similarly, Rope Hammer Curl progressed from 130 lbs for 8 reps to 180 lbs for 6 reps, marking a 38% increase in load with a 25% drop in reps. These shifts highlight how lower rep ranges enabled heavier lifts, reinforcing the effectiveness of intensity-based programming in promoting progressive overload.
 
 
 
