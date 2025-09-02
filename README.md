@@ -43,7 +43,7 @@ I began by loading and merging all my Excel files into a single DataFrame called
 
 <img width="601" height="197" alt="image" src="https://github.com/user-attachments/assets/61804401-03ce-4926-9a8c-72a5d6e41a4c" />
 
-
+<br>
 I added a new column called Intensity, assigning an integer “0” to volume-focused months (Aug 20, 2024 – Apr 10, 2025) and “1” to intensity-focused months (Apr 1, 2025 – May 21, 2025). This provided a simple way to label each workout by training style for later analysis.
 
 <img width="629" height="171" alt="image" src="https://github.com/user-attachments/assets/6994b195-ebfc-4ed2-891e-1c0bed5b44a2" />
