@@ -67,54 +67,11 @@ I filtered through both the full-year and spring datasets using the selected exe
 <img width="369" height="139" alt="image" src="https://github.com/user-attachments/assets/b672d0a7-5036-46ed-a312-40b2a9a204bb" /> <br>
 As shown in the table, the workouts completed in May were correctly labeled and categorized as intensive. The opposite applies for the February five rows in the image. Along with this, the Chest Press set on May 5th was recorded as progressive overload event. This indicates that the exercise was completed with a new heaviest (maximum) weight or rep for that lift, confirming that the function works.
 
-# Training the Dataset 
-I created a new DataFrame that only includes our target exercises: Carter Extension, Lat Pulldown, and Chest Press. From this new DataFrame,
 
-I established the independent variable (X) as the intensity column as it is the factor I am testing. <br>
-The dependent variable (y) is the Progressive Overload column as it is the factor I want to predict. <br>
-
-Lastly, I created a constant which is required by the library and trained/fit the data.
-
-# Results
-<ins>Total Personal Records Achieved:</ins> <br>
-
-Intensity-Focused Block: 23 PRs <br>
-Volume-Focused Block: 12 PRs
-
-This simple count reveals that the intensity-focused protocol produced nearly double the number of progressive overload events in a significantly shorter time frame.
-
-<ins>Key Statistical Findings: </ins><br>
-The logistic regression model was used to determine if this difference was statistically significant. The key results are as follows:
-
-1. coef (Coefficient): 1.4377 <br>
-
-The coefficient shows the direction and strength of the relationship. Because this number is positive, it means that when the Intensity variable changes from 0 (Volume) to 1 (Intensity), the likelihood of achieving progressive overload (Prog_Overload = 1) goes up. A coefficient of +1.44 indicates a strong positive relationship.
-
-2. P>|z| (p-value): 0.000 <br>
-
-P-value measures the probability that you would see a result this strong purely by random chance. The standard threshold for significance is 0.05. My p-value of 0.000 is far below this threshold. This gives strong evidence to reject the idea that both training styles are equal I can be very confident that the positive effect of intensity training is real.
-
-3. [0.025 and 0.975] (Confidence Interval): 0.681 to 2.194
-
-This is the 95% confidence range for my coefficient. There is 95% confidence that the "true" effect of the intensity training lies somewhere between +0.681 and +2.194. This further confirms that the positive effect is statistically significant.
-
-# Visualizations
-<img width="494" height="281" alt="image" src="https://github.com/user-attachments/assets/742921f0-fb39-4b00-993e-290d959826e4" />
-
-This graph tracks the cumulative number of personal records (PRs) achieved throughout the study period. The blue line represents the volume-focused training block, while the red line represents the intensity-focused block. The steeper slope of the red line provides a clear confirmation that PRs were achieved at a significantly faster rate during the intensity training period. By the end of their respective phases, the volume block had yielded 12 PRs, whereas the shorter intensity block produced 23 PRs.
-
-<img width="494" height="312" alt="image" src="https://github.com/user-attachments/assets/8e61dc61-1a57-486a-84c0-96065f8bda80" />
-
-This second graph visualizes the core finding from the logistic regression model. The y-axis shows the model's predicted probability that any given set will result in a personal record. The upward-sloping red line indicates a strong positive relationship: switching from a volume style to an intensity style significantly boosts the likelihood of achieving a PR. This confirms the calculated success rates, where only 7.6% of sets resulted in a PR during volume training, compared to a 25.8% success rate during intensity training. The scattered grey dots represent the actual outcomes (0% for no PR, 100% for a PR), showing how the model fits the real-world data.
-
-# Conclusion
-Through my findings with Logistic Regression, I can confidently say that intensity-focused training is significantly more effective at producing progressive overload than volume-focused training. The results are not ambiguous and are highly statistically significant, meaning it is extremely unlikely this finding is due to random chance. <br>
-
-These conclusions are further strengthened when considering the time difference between the two training protocols. The intensity-focused block produced nearly double the number of personal records (23 PRs) in only three months, compared to the 12 PRs achieved during the longer five-to-six month volume-focused block. This highlights that not only was the intensity protocol more effective, but it was also substantially more efficient at driving progress in a shorter timeframe.
-
-# Personal Note
-I thoroughly enjoyed completing this personal project and I am pleased to see such strong findings after just under two years of consistent training. If you made it this far, thank you for taking the time to read my work. 
-
+# Test
+## Test
+### Test
+#### Test
 
 
 
