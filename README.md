@@ -49,7 +49,7 @@ I added a new column called Intensity, assigning an integer “0” to volume-fo
 <img width="629" height="171" alt="image" src="https://github.com/user-attachments/assets/6994b195-ebfc-4ed2-891e-1c0bed5b44a2" />
 
 # Determining Progressive Overload
-I created a function to check every workout against the best performance recorded so far for that specific exercise. This identifies and declares any new personal records and thus achieving progressive overload. This is the backbone of my study. <br>
+I created a function to check every workout against the best performance recorded so far for that specific exercise. This identifies and declares any new personal records and thus achieving progressive overload. <br>
 <img width="414" height="308" alt="image" src="https://github.com/user-attachments/assets/63205ee6-509e-411a-94bc-fb35a6b32b49" />
 
 1. Ensures the 'Weight' and 'Rep' columns contain only numerical data, if not they are removed.
