@@ -60,12 +60,10 @@ I created a function to check every workout against the best performance recorde
 
 Function correctly prioritizes lifting heavier weight as the primary driver of overload, with increasing reps as a secondary factor.
 
-# Selecting Exercises To Study
-I want to focus on the exercises I performed the most to ensure the most statistically accurate data. <br>
-<img width="238" height="134" alt="image" src="https://github.com/user-attachments/assets/ab6493a6-4162-4a8b-9581-4ed9e52cb662" /> <br>
-The table above displays the most represented so let's go with these.
-
 # Applying Function
+I want to focus on the exercises I performed the most to ensure the most statistically accurate data. <br>
+The most common exercises recorded in the full-year dataset include Incline Db Press and Chest Press, while the most significant in the spring semester were Close Grip Row and Rope Hammer Curl.
+
 I filtered for the specific exercises declared above in the "gym_stats" and then applied the function I created to each of the three. Here is example data from Carter Extension: <br>
 <img width="278" height="220" alt="image" src="https://github.com/user-attachments/assets/57c675eb-fb51-433b-9e7e-16cb5f3dad55" /> <br>
 As shown in the table, the workouts completed in December were correctly labeled as non-intensive and thus volume focused. The opposite applies for the bottom five rows in the image. Along with this, the second set of "Carter Extension" on December 5th was labeled as progressive overload. This is correct because the exercise was completed with a new heaviest (maximum) weight for that lift, confirming the function correctly identifies this as a progressive overload event.
