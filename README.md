@@ -39,15 +39,12 @@ Key: <br>
 # Date Preparation and Manipulation
 I  used python to programmatically clean, transform, and analyze this workout data to answer my research question.
 
-I began by loading and merging all my excel files together in one DataFrame and called it "gym_stats". This DataFrame includes my workouts from Fall 2024, Winter 2024, Spring 2025 (volume), Spring 2025 (Intensity), and Summer 2025. Following this, I cleaned "gym_stats" by removing the empty separator rows and NaN values. 
+I began by loading and merging all my Excel files into a single DataFrame called gym_stats, which includes workouts from Fall 2024, Winter 2024, Spring 2025 (volume), and Spring 2025 (intensity). I cleaned gym_stats by removing empty rows and NaN values, then concatenated everything together and reset the index. Finally, I standardized the exercise names by trimming spaces and converting them to lowercase.
 
-I then added a new column called "Intensity" which assigned an integer "0" to the volume-focused months (August 20, 2024 - April 10, 2025) and a "1" to the intensity-focused months (April 11, 2025 - Present). This provided a clear method for categorizing each workout by its training style which will be useful later on. 
+<img width="676" height="211" alt="image" src="https://github.com/user-attachments/assets/8c7751c8-b3dd-46b6-906b-fc35bb661722" />
 
-Image on the left is the code I described, while the image on the right is my DataFrame of gym logs.
+I added a new column called Intensity, assigning an integer “0” to volume-focused months (Aug 20, 2024 – Apr 10, 2025) and “1” to intensity-focused months (Apr 1, 2025 – May 21, 2025). This provided a simple way to label each workout by training style for later analysis.
 
-<img width="664" height="212" alt="image" src="https://github.com/user-attachments/assets/af4f8005-2d05-499f-afae-c299f2c7d04c" />
-
-<img width="861" height="448" alt="image" src="https://github.com/user-attachments/assets/2e795fae-df56-4dbe-9f51-be11b7877051" />
 
 # Determining Progressive Overload
 I created a function to check every workout against the best performance recorded so far for that specific exercise. This identifies and declares any new personal records and thus achieving progressive overload. This is the backbone of my study. <br>
