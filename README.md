@@ -149,12 +149,18 @@ Average weekly % change in reps: 1.49%
 For the simulation, I selected 180 lbs for 6 reps as the starting point, based on my most recent personal record for the Wide Grip Row during the spring intensity training period. Anchoring the forecast in actual performance ensures that the projected sets reflect a realistic and challenging baseline. The simulation loop applies the average weekly percent changes in weight and reps—derived from spring progression data—to model how my training might evolve over a 12-week period. Each week compounds the prior values using exponential growth, generating projected sets that mirror the expected trajectory of progressive overload.
 <br>
 
-<img width="400" height="196" alt="image" src="https://github.com/user-attachments/assets/bc6528ed-0832-4c62-a48f-e5d60f974912" />
+<img width="409" height="224" alt="image" src="https://github.com/user-attachments/assets/02029377-5fdf-447c-80c0-a123eae2d3ae" /> <br><br>
+
+
+
+Before forecasting, I made sure to add the same derived features used during model training—such as LoadPerRep, RollingWeight, RollingRep, WeightDelta, and RepDelta—to the simulated Wide Grip Row sets. I then ensured that the simulated data was formatted identically to the training set—applying one-hot encoding—so the model could generate predictions without errors or mismatches. With the feature alignment complete, I passed the simulated data through the logistic regression model to generate overload probabilities for each projected set. 
+
+<img width="519" height="222" alt="image" src="https://github.com/user-attachments/assets/1e03727e-7c6e-4069-8894-772414ef8924" />
 
 
 ### Forecasted Overload Events
 
-
+Before forecasting, I made sure to add...
 
 
 
