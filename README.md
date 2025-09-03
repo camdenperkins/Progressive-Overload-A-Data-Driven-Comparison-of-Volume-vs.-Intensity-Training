@@ -152,15 +152,13 @@ For the simulation, I selected 180 lbs for 6 reps as the starting point, based o
 <img width="409" height="224" alt="image" src="https://github.com/user-attachments/assets/02029377-5fdf-447c-80c0-a123eae2d3ae" /> <br><br>
 
 
-
+### Forecasted Overload Events
 Before forecasting, I made sure to add the same derived features used during model training—such as LoadPerRep, RollingWeight, RollingRep, WeightDelta, and RepDelta—to the simulated Wide Grip Row sets. I then ensured that the simulated data was formatted identically to the training set—applying one-hot encoding—so the model could generate predictions without errors or mismatches. With the feature alignment complete, I passed the simulated data through the logistic regression model to generate overload probabilities for each projected set. 
 
 <img width="519" height="222" alt="image" src="https://github.com/user-attachments/assets/1e03727e-7c6e-4069-8894-772414ef8924" />
 
 
-### Forecasted Overload Events
 
-Before forecasting, I made sure to add...
 
 
 
