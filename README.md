@@ -96,9 +96,9 @@ To start, I created a new DataFrame "spring_intensity_df", which simply isolates
 
 To strengthen the model’s predictive power, I added several derived features—new variables created from existing data to highlight patterns that aren’t immediately obvious. Rather than relying solely on raw inputs like weight and reps, these features capture trends, ratios, and short-term changes. The features include:
 
--LoadPerRep: Calculated by dividing weight by reps, this metric reflects set intensity and helps distinguish between heavy low-rep sets and lighter high-rep volume. <br>
--RollingWeight and RollingRep: 3-set moving averages grouped by exercise that limit short-term fluctuations and highlight gradual progression, allowing the model to detect upward or downward trends in performance. <br>
--WeightDelta and RepDelta: Measure the change in weight and reps from one set to the next within each exercise that can indicate breakthroughs, fatigue, or strategic shifts in training style. <br>
+1. LoadPerRep: Calculated by dividing weight by reps, this metric reflects set intensity and helps distinguish between heavy low-rep sets and lighter high-rep volume. <br>
+2. RollingWeight and RollingRep: 3-set moving averages grouped by exercise that limit short-term fluctuations and highlight gradual progression, allowing the model to detect upward or downward trends in performance. <br>
+3. WeightDelta and RepDelta: Measure the change in weight and reps from one set to the next within each exercise that can indicate breakthroughs, fatigue, or strategic shifts in training style. <br>
 
 
 
