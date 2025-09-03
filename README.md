@@ -171,7 +171,7 @@ The ROC curve confirms the model’s reliability, achieving an AUC of 0.89, whic
 The line graph of overload probability shows a steady upward trend from 0.58 in week 1 to 0.68 in week 12, suggesting gradual and sustained training adaptations. The sum of weekly overload probabilities across the 12-week span totals approximately 7, matching the model’s estimated count of overload events and reinforcing the consistency of its forecasts.
 
 ### Visualization #3
-<img width="596" height="431" alt="image" src="https://github.com/user-attachments/assets/3e1124a4-1cd7-4881-b42a-58012d575f4b" />
+<img width="596" height="431" alt="image" src="https://github.com/user-attachments/assets/3e1124a4-1cd7-4881-b42a-58012d575f4b" /> <br> <br>
 ### Analysis
 The scatter plot reveals that overload events (red dots) cluster in regions where weight increases and reps remain relatively stable, reflecting the model’s alignment with intensity-based training logic. 
 
