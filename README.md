@@ -149,7 +149,7 @@ Average weekly % change in reps: 1.65%
 For the simulation, I selected 180 lbs for 6 reps as the starting point, based on my most recent personal record for the Wide Grip Row during the spring intensity training period. Anchoring the forecast in actual performance ensures that the projected sets reflect a realistic and challenging baseline. The simulation loop applies the average weekly percent changes in weight and reps—derived from spring progression data—to model how my training might evolve over a 12-week period. Each week compounds the prior values using exponential growth, generating projected sets that mirror the expected trajectory of progressive overload.
 <br>
 
-<img width="409" height="224" alt="image" src="https://github.com/user-attachments/assets/02029377-5fdf-447c-80c0-a123eae2d3ae" /> <br><br>
+<img width="409" height="224" alt="image" src="https://github.com/user-attachments/assets/02029377-5fdf-447c-80c0-a123eae2d3ae" /> <br>
 
 
 ### Forecasted Overload Events
@@ -161,12 +161,12 @@ Before forecasting, I made sure to add the same derived features used during mod
 The logistic regression model estimated 8 progressive overload events for the Wide Grip Row over the 12-week simulation. This indicates a consistent pattern of intensity-driven training progression, where overload is triggered in more than half the sessions without overreaching.
 
 ### Visualization #1
-<img width="596" height="433" alt="image" src="https://github.com/user-attachments/assets/73aa350d-92d4-494c-aa16-547ac89c4421" /> <br><br>
+<img width="596" height="433" alt="image" src="https://github.com/user-attachments/assets/73aa350d-92d4-494c-aa16-547ac89c4421" /> <br>
 ### Analysis
 The ROC curve confirms the model’s reliability, achieving an AUC of 0.89, which indicates strong separation between overload and non-overload events across varying thresholds. This performance establishes a solid foundation for trusting the model’s predictions.
 
 ### Visualization #2
-<img width="749" height="434" alt="image" src="https://github.com/user-attachments/assets/dc59aa0c-de84-4366-9330-55a30c019198" /> <br><br>
+<img width="749" height="434" alt="image" src="https://github.com/user-attachments/assets/dc59aa0c-de84-4366-9330-55a30c019198" /> <br>
 ### Analysis
 The line graph of overload probability shows a steady upward trend from 0.59 in week 1 to 0.71 in week 12, suggesting gradual and sustained training adaptations. The sum of weekly overload probabilities across the 12-week span totals approximately 8, matching the model’s estimated count of overload events and reinforcing the consistency of its forecasts.
 
