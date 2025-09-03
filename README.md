@@ -132,7 +132,8 @@ Overall Accuracy: 0.80 → Solid performance across the board. The model is lear
 ### Predicting Future Overload Events
 Now that the model is trained, we can use it to forecast progressive overloads over the next 12 weeks. By simulating future sets based on spring growth trends, we generate realistic training data and apply the model to predict which sets are likely to trigger overload.
 
-## ___
+## Applying the Predictive Model
+To maintain clarity and consistency in forecasting ,I applied the model to exercises that were already studied during the spring. Using movements like the Wide Grip Row—which appear consistently across both spring and summer logs—ensures that predictions are grounded in familiar patterns.
 
 ### Simulated 12-Week Training Progression
 
