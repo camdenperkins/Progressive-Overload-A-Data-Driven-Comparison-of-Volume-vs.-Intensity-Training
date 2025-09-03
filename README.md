@@ -115,7 +115,7 @@ I then trained the model using an 80/20 train-test split and applied logistic re
 ## Model Evaluation
 
 ### Confusion Matrix
-<img width="852" height="401" alt="image" src="https://github.com/user-attachments/assets/e3fa18ce-2174-43ca-9eae-338a39a41235" />
+<img width="763" height="325" alt="image" src="https://github.com/user-attachments/assets/5582584c-bc64-4b73-a85d-50711471e6d9" />
 
 ### Classification Report
 
