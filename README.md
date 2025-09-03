@@ -158,7 +158,7 @@ Before forecasting, I made sure to add the same derived features used during mod
 <img width="519" height="222" alt="image" src="https://github.com/user-attachments/assets/1e03727e-7c6e-4069-8894-772414ef8924" />
 
 ## Predictive Model Results and Analysis
-The logistic regression model estimates 7 progressive overload events for the Wide Grip Row over the 12-week simulation. This indicates a consistent pattern of intensity-driven training progression, where overload is triggered in more than half the sessions without overreaching.
+The logistic regression model estimated 7 progressive overload events for the Wide Grip Row over the 12-week simulation. This indicates a consistent pattern of intensity-driven training progression, where overload is triggered in more than half the sessions without overreaching.
 
 ### Visualization #1
 <img width="591" height="437" alt="image" src="https://github.com/user-attachments/assets/7fb81414-d29c-4a0e-82e8-06be3630cbb1" /> <br> <br>
@@ -174,6 +174,9 @@ The line graph of overload probability shows a steady upward trend from 0.58 in 
 <img width="596" height="431" alt="image" src="https://github.com/user-attachments/assets/3e1124a4-1cd7-4881-b42a-58012d575f4b" /> <br> <br>
 ### Analysis
 The scatter plot reveals that overload events (red dots) cluster in regions where weight increases and reps remain relatively stable, reflecting the model’s alignment with intensity-based training logic. 
+
+## Comparing Simulation Results to Real Data
+
 
 
 
