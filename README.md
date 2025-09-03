@@ -96,7 +96,9 @@ Once the model generates its predictions, I’ll compare the total number of for
 ## Implementation and Workflow
 
 ### Data Preparation and Manipulation
-To start, I created a new DataFrame "spring_intensity_df", which simply isolates workouts labeled as high-intensity from the spring semester. Therefore, this DataFrame only contains roughly one month of workout logs. I then applied the calculate_progressive_overload function I established before to spring_intensity_df, resulting in a new DataFrame named part_four_df. To ensure statistical reliability, I filtered the data to include only the top 20 most frequently performed exercises. This step helps the model focus on well-represented movements with enough data to learn meaningful patterns.
+To start, I created a new DataFrame "spring_intensity_df", which simply isolates workouts labeled as high-intensity from the spring semester. Therefore, this DataFrame only contains roughly one month of workout logs. I then applied the calculate_progressive_overload function I established before to spring_intensity_df, resulting in a new DataFrame named spring_model_data. To ensure statistical reliability, I filtered the data to include only the top 20 most frequently performed exercises. This step helps the model focus on well-represented movements with enough data to learn meaningful patterns.
+
+<img width="470" height="78" alt="image" src="https://github.com/user-attachments/assets/880dc6f3-55bf-457e-a200-4af04aed63f2" />
 
 ### Feature Engineering
 
