@@ -129,6 +129,9 @@ F1-score: 0.76 → This score balances precision and recall, providing how well 
 
 Overall Accuracy: 0.80 → Solid performance across the board. The model is learning meaningful patterns and generalizing well.
 
+### Predicting Future Overload Events
+Now that the model is trained, we can use it to forecast progressive overloads over the next 12 weeks. By simulating future sets based on spring growth trends, we generate realistic training data and apply the model to predict which sets are likely to trigger overload.
+
 
 
 
