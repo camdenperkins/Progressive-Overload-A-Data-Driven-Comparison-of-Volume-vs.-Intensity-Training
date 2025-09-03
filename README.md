@@ -71,7 +71,7 @@ I filtered through both the full-year and spring datasets using the selected exe
 <img width="369" height="139" alt="image" src="https://github.com/user-attachments/assets/b672d0a7-5036-46ed-a312-40b2a9a204bb" /> <br>
 As shown in the table, the workouts completed in May were correctly labeled and categorized as intensive. The opposite applies for the February five rows in the image. Along with this, the Chest Press set on May 5th was recorded as progressive overload event. This indicates that the exercise was completed with a new heaviest (maximum) weight or rep for that lift, confirming that the function works.
 
-# Section One - Empirical Analysis
+## Empirical Analysis
 
 ### Visualization #1
 <img width="799" height="463" alt="image" src="https://github.com/user-attachments/assets/2bed709f-da09-4511-896a-bf1ee75e175f" /> <br>
