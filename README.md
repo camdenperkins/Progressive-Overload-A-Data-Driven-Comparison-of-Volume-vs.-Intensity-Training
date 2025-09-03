@@ -91,6 +91,8 @@ Workout logs from June to August 2025 are not included in this study. Instead, I
 
 Once the model generates its predictions, I’ll compare the total number of forecasted progressive overload events against my actual gym progress to evaluate how accurate the model was.
 
+### Date Preparation and Manipulation
+To start, I created a new DataFrame "spring_intensity_df", which simply isolates workouts labeled as high-intensity from the spring semester. Therefore, this DataFrame only contains roughly one month of workout logs. I then applied the calculate_progressive_overload function I established before to spring_intensity_df, resulting in a new DataFrame named part_four_df. To ensure statistical reliability, I filtered the data to include only the top 20 most frequently performed exercises. This step helps the model focus on well-represented movements with enough data to learn meaningful patterns.
 
 
 
