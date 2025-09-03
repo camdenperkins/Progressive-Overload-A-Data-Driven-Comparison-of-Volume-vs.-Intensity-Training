@@ -94,6 +94,11 @@ Once the model generates its predictions, I’ll compare the total number of for
 ### Date Preparation and Manipulation
 To start, I created a new DataFrame "spring_intensity_df", which simply isolates workouts labeled as high-intensity from the spring semester. Therefore, this DataFrame only contains roughly one month of workout logs. I then applied the calculate_progressive_overload function I established before to spring_intensity_df, resulting in a new DataFrame named part_four_df. To ensure statistical reliability, I filtered the data to include only the top 20 most frequently performed exercises. This step helps the model focus on well-represented movements with enough data to learn meaningful patterns.
 
+To strengthen the model’s predictive power, I added several derived features—new variables created from existing data to highlight patterns that aren’t immediately obvious. Rather than relying solely on raw inputs like weight and reps, these features capture trends, ratios, and short-term changes. The features include:
+
+-LoadPerRep: Calculated by dividing weight by reps, this metric reflects set intensity and helps distinguish between heavy low-rep sets and lighter high-rep volume.
+-RollingWeight and RollingRep: 3-set moving averages grouped by exercise that limit short-term fluctuations and highlight gradual progression, allowing the model to detect upward or downward trends in performance.
+-WeightDelta and RepDelta: Measure the change in weight and reps from one set to the next within each exercise that can indicate breakthroughs, fatigue, or strategic shifts in training style.
 
 
 
