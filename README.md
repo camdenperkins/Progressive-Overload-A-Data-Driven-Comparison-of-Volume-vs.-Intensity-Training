@@ -98,7 +98,7 @@ Once the model generates its predictions, I’ll compare the total number of for
 ### Data Preparation and Manipulation
 To start, I created a new DataFrame "spring_intensity_df", which simply isolates workouts labeled as high-intensity from the spring semester. Therefore, this DataFrame only contains roughly one month of workout logs. I then applied the calculate_progressive_overload function I established before to spring_intensity_df, resulting in a new DataFrame named spring_model_data. To ensure statistical reliability, I filtered the data to include only the top 20 most frequently performed exercises. This step helps the model focus on well-represented movements with enough data to learn meaningful patterns.
 
-<img width="546" height="87" alt="image" src="https://github.com/user-attachments/assets/1f06a43f-8c80-40a5-b1cb-040b8d837691" />
+<img width="550" height="88" alt="image" src="https://github.com/user-attachments/assets/b120c648-9aab-4007-8b61-29c2166cad4f" />
 
 ### Feature Engineering
 
