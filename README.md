@@ -100,6 +100,12 @@ To strengthen the model’s predictive power, I added several derived features�
 2. RollingWeight and RollingRep: 3-set moving averages grouped by exercise that limit short-term fluctuations and highlight gradual progression, allowing the model to detect upward or downward trends in performance. <br>
 3. WeightDelta and RepDelta: Measure the change in weight and reps from one set to the next within each exercise that can indicate breakthroughs, fatigue, or strategic shifts in training style. <br>
 
+With the derived features in place, I moved into the modeling phase. I selected key variables—including weight, reps, intensity, exercise type, and the engineered metrics like LoadPerRep, RollingWeight, and WeightDelta to serve as inputs for the logistic regression model. The target variable for this model is Prog_Overload, which indicates whether a given set resulted in progressive overload. This binary label "1" for a new personal record, "0" otherwise was generated using the same logic established in Section One.
+
+I then trained the model using an 80/20 train-test split and applied logistic regression with balanced class weights to account for the rarity of overload events, ensuring the model could learn from both positive and negative outcomes effectively.
+
+### Confusion Matrix and __
+
 
 
 
