@@ -87,6 +87,9 @@ The findings above offer direct support for the research question: Does high-int
 These results provide a strong empirical foundation for deeper analysis. With clear patterns emerging from the intensity block, the next step is to explore whether progressive overload events can be forecasted using machine learning—specifically logistic regression.
 
 # Section Two - Predictive Modeling
+Workout logs from June to August 2025 are not included in this study. Instead, I’ll use the empirical data gathered in Section One to predict future overload events. To do this, I’m applying logistic regression and focusing specifically on the spring intensity block. As the earlier results clearly showed, overload events were most frequent during high-intensity training, making this block the most reliable foundation for accurate forecasting.
+
+Once the model generates its predictions, I’ll compare the total number of forecasted progressive overload events against my actual gym progress to evaluate how accurate the model was.
 
 
 
