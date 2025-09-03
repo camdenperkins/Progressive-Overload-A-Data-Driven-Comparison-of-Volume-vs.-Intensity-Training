@@ -132,6 +132,12 @@ Overall Accuracy: 0.80 → Solid performance across the board. The model is lear
 ### Predicting Future Overload Events
 Now that the model is trained, we can use it to forecast progressive overloads over the next 12 weeks. By simulating future sets based on spring growth trends, we generate realistic training data and apply the model to predict which sets are likely to trigger overload.
 
+## ___
+
+### Simulated 12-Week Training Progression
+
+### Forecasted Overload Events
+
 
 
 
