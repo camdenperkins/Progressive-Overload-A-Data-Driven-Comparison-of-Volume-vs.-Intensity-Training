@@ -36,7 +36,9 @@ Key: <br>
 -Exercise: Activity performed, such as chest press, bicep curl, etc. <br>
 -Rep: How many repetitions I completed each exercise for <br>
 
-# Implementation and Workflow
+# Section One
+
+## Implementation and Workflow
 
 ### Date Preparation and Manipulation
 I  used python to programmatically clean, transform, and analyze this workout data to answer my research question.
