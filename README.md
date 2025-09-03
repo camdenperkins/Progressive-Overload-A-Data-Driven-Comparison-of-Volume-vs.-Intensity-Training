@@ -144,6 +144,7 @@ Average weekly % change in reps: 1.49%
 
 <img width="484" height="112" alt="image" src="https://github.com/user-attachments/assets/b37f6f5f-23c0-4dd5-ad1a-af335f269572" />
 
+<br>
 For the simulation, I selected 180 lbs for 6 reps as the starting point, based on my most recent personal record for the Wide Grip Row during the spring intensity training period. Anchoring the forecast in actual performance ensures that the projected sets reflect a realistic and challenging baseline. The simulation loop applies the average weekly percent changes in weight and reps—derived from spring progression data—to model how my training might evolve over a 12-week period. Each week compounds the prior values using exponential growth, generating projected sets that mirror the expected trajectory of progressive overload.
 
 <img width="400" height="196" alt="image" src="https://github.com/user-attachments/assets/bc6528ed-0832-4c62-a48f-e5d60f974912" />
