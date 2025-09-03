@@ -115,8 +115,19 @@ I then trained the model using an 80/20 train-test split and applied logistic re
 ## Model Evaluation
 
 ### Confusion Matrix
+<img width="852" height="401" alt="image" src="https://github.com/user-attachments/assets/e3fa18ce-2174-43ca-9eae-338a39a41235" />
 
 ### Classification Report
+
+Class 1 – Overload
+
+Precision: 0.82 → When the model predicts overload, it’s correct 82% of the time.
+
+Recall: 0.70 → It catches 70% of actual overload events—decent, but could be improved if missing overloads is costly.
+
+F1-score: 0.76 → This score balances precision and recall, providing how well the model identifies overload events without over-predicting. Score suggests the model is performing reliably.
+
+Overall Accuracy: 0.80 → Solid performance across the board. The model is learning meaningful patterns and generalizing well.
 
 
 
