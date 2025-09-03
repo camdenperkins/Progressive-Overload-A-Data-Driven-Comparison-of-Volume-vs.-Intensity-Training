@@ -84,6 +84,8 @@ The scatter plot reveals a clear inverse relationship between reps and weight ac
 ### Section One Concluding Thoughts
 The findings above offer direct support for the research question: Does high-intensity resistance training result in a statistically significant higher frequency of progressive overload compared to high-volume? Both the bar chart and scatter plot demonstrate that intensity-based training consistently produced greater overload outcomes—whether measured by total overload scores or by heavier weights achieved at lower rep ranges.
 
+These results provide a strong empirical foundation for deeper analysis. With clear patterns emerging from the intensity block, the next step is to explore whether progressive overload events can be forecasted using machine learning—specifically logistic regression.
+
 # Section Two - Predictive Modeling
 
 
