@@ -139,6 +139,9 @@ To maintain clarity and consistency in forecasting, I applied the model to exerc
 ### Simulated 12-Week Training Progression
 To calculate average weekly percent changes in weight and reps for the Wide Grip Row from the spring intensity training period, I first computed the percent change for each training session. This allowed me to capture progression in both load and volume across sessions, rather than relying on absolute differences. After calculating these changes, I averaged them to estimate typical weekly growth rates. This ensures that overload predictions are both realistic and consistent with the earlier modeling logic. 
 
+Average weekly % change in weight: 0.59%
+Average weekly % change in reps: 1.49%
+
 <img width="484" height="112" alt="image" src="https://github.com/user-attachments/assets/b37f6f5f-23c0-4dd5-ad1a-af335f269572" />
 
 
