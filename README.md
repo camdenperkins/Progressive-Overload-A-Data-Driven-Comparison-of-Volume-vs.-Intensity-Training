@@ -131,13 +131,17 @@ F1-score: 0.76 → This score balances precision and recall, providing how well 
 
 Overall Accuracy: 0.80 → Solid performance across the board. The model is learning meaningful patterns and generalizing well.
 
-### Predicting Future Overload Events
+## Applying the Predictive Model
 Now that the model is trained, we can use it to forecast progressive overloads over the next 12 weeks. By simulating future sets based on spring growth trends, we generate realistic training data and apply the model to predict which sets are likely to trigger overload.
 
-## Applying the Predictive Model
-To maintain clarity and consistency in forecasting ,I applied the model to exercises that were already studied during the spring. Using movements like the Wide Grip Row—which appear consistently across both spring and summer logs—ensures that predictions are grounded in familiar patterns.
+To maintain clarity and consistency in forecasting, I applied the model to exercises that were already studied during the spring. Using movements like the Wide Grip Row—which appear consistently across both spring and summer logs—ensures that predictions are grounded in familiar patterns.
 
 ### Simulated 12-Week Training Progression
+To calculate average weekly percent changes in weight and reps for the Wide Grip Row from the spring intensity training period, I first computed the percent change for each training session. This allowed me to capture progression in both load and volume across sessions, rather than relying on absolute differences. After calculating these changes, I averaged them to estimate typical weekly growth rates. This ensures that overload predictions are both realistic and consistent with the earlier modeling logic. 
+
+<img width="484" height="112" alt="image" src="https://github.com/user-attachments/assets/b37f6f5f-23c0-4dd5-ad1a-af335f269572" />
+
+
 
 ### Forecasted Overload Events
 
