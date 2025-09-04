@@ -181,7 +181,7 @@ As previously mentioned, I’ll be comparing simulated wide grip rows to real tr
 ### Total Progressive Overload Events
 <img width="595" height="358" alt="image" src="https://github.com/user-attachments/assets/95fa0c50-cf2f-4538-9ab1-101f1e759811" /> <br>
 
-This bar chart shows that the simulation slightly outperformed both exercises from my summer training data in terms of total overload events. At first glance, this suggests the model was more effective at driving progression. However, it's important to factor in context: each non-simulated exercise was performed over just half the duration of the simulated block. When adjusted for time, the simulation may have actually underperformed relative to real-world training. This may be due to a more consistent diet during the summer, improved rest, and equipment more suited for generating progressive overload. <br>
+This bar chart shows that the simulation slightly outperformed both exercises from my summer training data in terms of total overload events. At first glance, this suggests the model was more effective at driving progression. However, it's important to factor in context: each non-simulated exercise was performed over just half the duration of the simulated block. When adjusted for time, the simulation may have actually underperformed relative to real-world training. This may be due to a more consistent diet during the summer, improved rest, and having access to equipment more suited for generating progressive overload. <br>
 
 <img width="493" height="332" alt="image" src="https://github.com/user-attachments/assets/e703e505-a6cc-4099-84e0-a750a851c6bf" /> <br>
 
