@@ -173,7 +173,7 @@ The line graph of overload probability shows a steady upward trend from 0.59 in 
 ### Visualization #3
 <img width="615" height="439" alt="image" src="https://github.com/user-attachments/assets/06882334-1a00-492c-bf2b-d97f97893147" /> <br><br>
 ### Analysis
-The scatter plot reveals that overload events (red dots) cluster in regions where weight increases and reps remain relatively stable, reflecting the model’s alignment with intensity-based training logic. 
+The scatter plot reveals that overload events (red dots) cluster in regions where weight increases and reps remain relatively stable but slightly trend downwards, reflecting the model’s alignment with intensity-based training logic. 
 
 ## Comparing Simulation Results to Real Data
 As previously mentioned, I’ll be comparing simulated wide grip rows to real training data collected over the summer. I divided my wide grip row training into two distinct exercises across two time periods: Wide Grip Cable Rows, performed from May 28 to June 30, and Chest Support Wide Machine Rows, completed from July 31 to September 1, 2025. Together, these sessions span roughly 12 weeks. I intentionally switched exercises midway to improve stability and minimize swaying—ensuring my back could take on the majority of the workload.
