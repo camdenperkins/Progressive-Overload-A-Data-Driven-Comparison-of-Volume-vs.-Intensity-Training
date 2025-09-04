@@ -125,7 +125,7 @@ Class 1 – Overload
 
 Precision: 0.82 → When the model predicts overload, it’s correct 82% of the time.
 
-Recall: 0.70 → It catches 70% of actual overload events—decent, but could be improved if missing overloads is costly.
+Recall: 0.70 → It catches 70% of actual overload events.
 
 F1-score: 0.76 → This score balances precision and recall, providing how well the model identifies overload events without over-predicting. Score suggests the model is performing reliably.
 
