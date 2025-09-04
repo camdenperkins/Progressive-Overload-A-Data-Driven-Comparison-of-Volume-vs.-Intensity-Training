@@ -15,7 +15,7 @@ To answer this question, I’ll be conducting a two-part study.
 
 **Section 1** focuses on analyzing the training metrics and progression I tracked during my senior year at Elon University, spanning August 20, 2024, to May 21, 2025. I plan to explore patterns across both the full year and the isolated, intensity-focused training block during the spring semester.
 
-**Section 2** builds on that foundation by applying predictive modeling techniques—specifically linear and logistic regression—to forecast future progressive overload events. I’ll then compare these predictions against actual post-study data to evaluate the model’s accuracy and reliability.
+**Section 2** builds on that foundation by applying predictive modeling techniques—specifically  logistic regression—to forecast future progressive overload events. I’ll then compare these predictions against actual post-study data to evaluate the model’s accuracy and reliability.
 
 # Definitions
 <ins>Progressive Overload</ins> involves gradually increasing the weight, frequency, or intensity of your workouts over time to challenge your body and promote strength gains. <br>
@@ -81,7 +81,7 @@ The bar chart compares total progressive overload between volume-based and inten
 ### Visualization #2
 <img width="774" height="460" alt="image" src="https://github.com/user-attachments/assets/b6717204-b95a-438c-a44d-aa40af7204b6" /> <br>
 ### Analysis
-The scatter plot reveals a clear inverse relationship between reps and weight across both exercises. Close Grip Row sets dropped from 10 repetitions at 130 lbs in February to 6–7 repetitions at 195 lbs by May—a 50% increase in weight paired with a 30–40% reduction in reps. Similarly, Rope Hammer Curl progressed from 130 lbs for 8 reps to 180 lbs for 6 reps, marking a 38% increase in load with a 25% drop in reps. These shifts highlight how lower rep ranges enabled heavier lifts, reinforcing the effectiveness of intensity-based programming in promoting progressive overload.
+The scatter plot reveals a clear inverse relationship between reps and weight across both exercises. Close Grip Row sets changed from 10 repetitions at 130 lbs in February to 6–7 repetitions at 195 lbs by May—a 50% increase in weight paired with a 30–40% reduction in reps. Similarly, Rope Hammer Curl progressed from 130 lbs for 8 reps to 180 lbs for 6 reps, marking a 38% increase in load with a 25% drop in reps. These shifts highlight how lower rep ranges enabled heavier lifts, reinforcing the effectiveness of intensity-based programming in promoting progressive overload.
 
 ### Section One Concluding Thoughts
 The findings above offer direct support for the research question: Does high-intensity resistance training result in a statistically significant higher frequency of progressive overload compared to high-volume? Both the bar chart and scatter plot demonstrate that intensity-based training consistently produced greater overload outcomes—whether measured by total overload scores or by heavier weights achieved at lower rep ranges.
