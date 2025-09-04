@@ -199,7 +199,7 @@ Through my findings with Logistic Regression, I can confidently say that intensi
 The model I created delivers a data-driven framework for forecasting overload progression, combining simulation logic with real-world execution patterns. While the predictions on strength gains and overall progressive overload events were not perfect, it succeeded in surfacing where execution variability and fatigue resistance play a decisive role. <br>
 
 ### Personal Note
-I thoroughly enjoyed completing this personal project and I am pleased to see such strong findings after two years of consistent training. Comparing my real data to the simulated exercise was an engaging experience that deepened my understanding and broadened my appreciation for machine learning as a whole. More than anything, it was just fun to build something that reflects my training journey so closely. If you made it this far, thank you for taking the time to read my work. hows the flow of the second sentence
+I thoroughly enjoyed completing this personal project and I am pleased to see such strong findings after two years of consistent training. Comparing my real data to the simulated exercise was an engaging experience that deepened my understanding and broadened my appreciation for machine learning as a whole. More than anything, it was just fun to build something that reflects my training journey so closely. If you made it this far, thank you for taking the time to read my work.
 
 
 
