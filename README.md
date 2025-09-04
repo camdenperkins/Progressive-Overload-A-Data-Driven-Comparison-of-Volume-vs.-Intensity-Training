@@ -176,6 +176,35 @@ The line graph of overload probability shows a steady upward trend from 0.59 in 
 The scatter plot reveals that overload events (red dots) cluster in regions where weight increases and reps remain relatively stable, reflecting the model’s alignment with intensity-based training logic. 
 
 ## Comparing Simulation Results to Real Data
+As previously mentioned, I’ll be comparing simulated wide grip rows to real training data collected over the summer. I divided my wide grip row training into two distinct exercises across two time periods: Wide Grip Cable Rows, performed from May 28 to June 30, and Chest Support Wide Machine Rows, completed from July 31 to September 1, 2025. Together, these sessions span roughly 12 weeks. I intentionally switched exercises midway to improve stability and minimize swaying—ensuring my back could take on the majority of the workload.
+
+### Total Progressive Overload Events
+<img width="595" height="358" alt="image" src="https://github.com/user-attachments/assets/95fa0c50-cf2f-4538-9ab1-101f1e759811" /> <br>
+
+This bar chart shows that the simulation slightly outperformed both exercises from my summer training data in terms of total overload events. At first glance, this suggests the model was more effective at driving progression. However, it's important to factor in context: each non-simulated exercise was performed over just half the duration of the simulated block. When adjusted for time, the simulation may have actually underperformed relative to real-world training. This may be due to a more consistent diet during the summer, improved rest, and equipment more suited for generating progressive overload. <br>
+
+<img width="493" height="332" alt="image" src="https://github.com/user-attachments/assets/e703e505-a6cc-4099-84e0-a750a851c6bf" /> <br>
+
+Looking at the weight distribution across exercises, it's clear that both versions of the wide grip cable row—simulated and real—tend to reach higher peak weights. This makes sense, since wide grip rows are more prone to momentum, and extra body sway can artificially inflate the top-end weight, regardless of how hard I try to maintain good form.
+
+The control Simulated Wide Grip Row reached a high of 193.4 lbs, starting from 180 lbs, which reflects a 7.44% increase—likely driven by idealized progression without fatigue, inconsistency, or technique breakdown. Wide Grip Cable Row started at 160 lbs and climbed to 190 lbs, showing the largest percent increase at 18.75%. This suggests strong progression, but also highlights potential exaggeration of perceived gains.
+
+In contrast, the Chest Support Wide Machine Row started at 165 lbs and topped out at 185 lbs, with a more modest 12.12% increase. Because this variation limits momentum and forces stricter form, it’s arguably the most honest reflection of muscular output. It also serves as a strong indicator of how intensity-focused training—pushing heavier loads with fewer reps—can drive overload more effectively than simply increasing volume. 
+
+# Conclusion
+
+### Final Thoughts
+Through my findings with Logistic Regression, I can confidently say that intensity-focused training is significantly more effective at producing progressive overload than volume-focused training. The results I gathered are highly statistically significant, meaning it is extremely unlikely this finding is due to random chance. <br>
+
+The model I created delivers a data-driven framework for forecasting overload progression, combining simulation logic with real-world execution patterns. While the predictions on strength gains and overall progressive overload events were not perfect, it succeeded in surfacing where execution variability and fatigue resistance play a decisive role. <br>
+
+### Personal Note
+I thoroughly enjoyed completing this personal project and I am pleased to see such strong findings after just under two years of consistent training. Comparing my real data to the simulated exercise was an engaging experience that deepened my understanding and broadened my appreciation for machine learning as a whole. More than anything, it was just fun to build something that reflects my training journey so closely. If you made it this far, thank you for taking the time to read my work. hows the flow of the second sentence
+
+
+
+
+
 
 
 
