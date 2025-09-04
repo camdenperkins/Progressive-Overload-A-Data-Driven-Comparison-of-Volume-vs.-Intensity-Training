@@ -134,7 +134,7 @@ Overall Accuracy: 0.80 → Solid performance across the board. The model is lear
 ## Applying the Predictive Model
 Now that the model is trained, I can use it to forecast progressive overloads over the next 12 weeks. By simulating future sets based on spring growth trends, I can generate realistic training data and apply the model to predict which sets are likely to trigger overload.
 
-To maintain clarity and consistency in forecasting, I applied the model to an exercise that appears consistently across both spring and summer logs to ensure that predictions are grounded in familiar patterns: Wide Grip Rowide Grip Row.
+To maintain clarity and consistency in forecasting, I applied the model to an exercise that appears consistently across both spring and summer logs to ensure that predictions are grounded in familiar patterns: Wide Grip Row.
 
 ### Simulated 12-Week Training Progression
 To calculate average weekly percent changes in weight and reps for the Wide Grip Row from the spring intensity training period, I first computed the percent change for each training session. This allowed me to capture progression in both load and volume across sessions, rather than relying on absolute differences. After calculating these changes, I averaged them to estimate typical weekly growth rates. This ensures that overload predictions are both realistic and consistent with the earlier modeling logic. 
