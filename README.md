@@ -132,7 +132,7 @@ F1-score: 0.76 → This score balances precision and recall, providing how well 
 Overall Accuracy: 0.80 → Solid performance across the board. The model is learning meaningful patterns and generalizing well.
 
 ## Applying the Predictive Model
-Now that the model is trained, we can use it to forecast progressive overloads over the next 12 weeks. By simulating future sets based on spring growth trends, we generate realistic training data and apply the model to predict which sets are likely to trigger overload.
+Now that the model is trained, I can use it to forecast progressive overloads over the next 12 weeks. By simulating future sets based on spring growth trends, I can generate realistic training data and apply the model to predict which sets are likely to trigger overload.
 
 To maintain clarity and consistency in forecasting, I applied the model to an exercise that appears consistently across both spring and summer logs to ensure that predictions are grounded in familiar patterns: Wide Grip Rowide Grip Row.
 
